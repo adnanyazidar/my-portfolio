@@ -39,7 +39,7 @@ This is a **modern portfolio website** built with **Next.js App Router** to show
 ### Front-End
 
 - Next.js (App Router)
-- Tailwind
+- Tailwind CSS
 
 ### QA Automation
 
@@ -57,11 +57,9 @@ This is a **modern portfolio website** built with **Next.js App Router** to show
 
 ```
 PORTOFOLIO_ADNAN/
-├── public/            # Static assets (images, icons)
+├── public/
 ├── src/
-│   └── app/           # Next.js App Router (pages & layout)
-├── .next/             # Build output (auto-generated)
-├── node_modules/      # Dependencies
+│   └── app/
 ├── package.json
 └── README.md
 ```
@@ -70,36 +68,16 @@ PORTOFOLIO_ADNAN/
 
 ## ⚙️ Getting Started
 
-### 1. Clone Repository
-
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-```
-
-### 2. Install Dependencies
-
-```bash
+git clone https://github.com/adnanyazidar/my-portfolio.git
+cd my-portfolio
 npm install
-```
-
-### 3. Run Development Server
-
-```bash
 npm run dev
-```
-
-Then open:
-
-```
-http://localhost:3000
 ```
 
 ---
 
 ## 🧪 Running Automation Tests
-
-If using Playwright:
 
 ```bash
 npx playwright test
@@ -117,21 +95,10 @@ _Add screenshot here:_
 
 ---
 
-## 🎯 Project Goals
-
-- Build a **job-ready portfolio**
-- Demonstrate **QA Automation mindset**
-- Showcase **clean front-end architecture**
-- Apply **real-world development workflow**
-
----
-
 ## 👨‍💻 Author
 
 **Adnan Yazid**
-
-- QA Automation Engineer (Junior)
-- Front-End Developer
+QA Automation Engineer (Junior) | Front-End Developer
 
 ---
 
@@ -146,7 +113,6 @@ _Add screenshot here:_
 ## ⭐ Support
 
 If you like this project, give it a ⭐
-It helps me grow and improve!
 
 ---
 
