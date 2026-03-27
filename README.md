@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portfolio — QA Automation & Front-End Developer
 
-## Getting Started
+Hi, I'm **Adnan Yazid** 👋
+I specialize in building **high-quality digital products** by combining:
 
-First, run the development server:
+- 🔍 QA Automation (reliability & testing)
+- 🎨 Front-End Development (UI/UX & performance)
+
+---
+
+## 🌐 Live Demo
+
+🔗 https://your-portfolio-link.com
+
+---
+
+## 📌 About This Project
+
+This is a **modern portfolio website** built with **Next.js App Router** to showcase:
+
+- My QA Automation skills
+- My Front-End development expertise
+- My approach to building scalable systems
+
+---
+
+## 🧠 Key Features
+
+- ✅ Automation-ready architecture
+- ⚡ Fast performance (Next.js optimization)
+- 📱 Fully responsive design
+- 🎯 Clean UI/UX
+- 🧩 Scalable folder structure
+
+---
+
+## 🛠️ Tech Stack
+
+### Front-End
+
+- Next.js (App Router)
+- Tailwind
+
+### QA Automation
+
+- Playwright
+- End-to-End Testing
+
+### Tools
+
+- Git & GitHub
+- VS Code
+
+---
+
+## 📂 Project Structure
+
+```
+PORTOFOLIO_ADNAN/
+├── public/            # Static assets (images, icons)
+├── src/
+│   └── app/           # Next.js App Router (pages & layout)
+├── .next/             # Build output (auto-generated)
+├── node_modules/      # Dependencies
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧪 Running Automation Tests
 
-To learn more about Next.js, take a look at the following resources:
+If using Playwright:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npx playwright test
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📸 Preview
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+_Add screenshot here:_
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+![Preview](./public/preview.png)
+```
+
+---
+
+## 🎯 Project Goals
+
+- Build a **job-ready portfolio**
+- Demonstrate **QA Automation mindset**
+- Showcase **clean front-end architecture**
+- Apply **real-world development workflow**
+
+---
+
+## 👨‍💻 Author
+
+**Adnan Yazid**
+
+- QA Automation Engineer (Junior)
+- Front-End Developer
+
+---
+
+## 📬 Contact
+
+- Email: [adnanyazidar48@gmail.com](mailto:adnanyazidar48@gmail.com)
+- LinkedIn: https://www.linkedin.com/in/adnan-yazid-ardiansyah-a14800160/
+- GitHub: https://github.com/adnanyazidar
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐
+It helps me grow and improve!
+
+---
+
+## 📄 License
+
+MIT License
