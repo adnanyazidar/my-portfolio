@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Adnan.Core — QA Automation Architect & Frontend Expert",
+  title: "Adnan Labs — QA Automation Architect & Frontend Expert",
   description:
     "I build resilient automation ecosystems that reduce regression testing by 80%, ensuring your product reaches users faster and error-free.",
 };

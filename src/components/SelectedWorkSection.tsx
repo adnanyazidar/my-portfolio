@@ -1,13 +1,13 @@
 export default function SelectedWorkSection() {
   return (
-    <section id="case-studies" className="pb-24 md:pb-32 xl:pb-40 pt-12 md:pt-16 px-6 md:px-12 xl:px-20 2xl:px-[120px] bg-zinc-100">
+    <section id="case-studies" className="py-[100px] md:py-[120px] px-6 md:px-12 xl:px-20 2xl:px-[120px] bg-zinc-100">
       <div className="w-full max-w-[1920px] mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-12 md:mb-16 gap-8">
+        <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-8">
           <div>
-            <h2 className="font-headline font-bold text-sm uppercase tracking-[0.3em] text-secondary mb-4">
+            <h2 className="font-headline font-bold text-sm uppercase tracking-[0.3em] text-secondary mb-6">
               Selected Work
             </h2>
-            <h3 className="font-headline font-extrabold text-4xl md:text-5xl tracking-tighter">
+            <h3 className="font-headline font-extrabold text-4xl md:text-5xl tracking-tight leading-tight">
               Case Studies
             </h3>
           </div>
@@ -26,10 +26,10 @@ export default function SelectedWorkSection() {
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4KI3dMh1NJJPX-cwlWrIHjzkWADCesI3kbtJ8bQByLBKd1yH9s70s8e8-8ZilRqkVsd3ccdIQvXJbBmWkI3njP3lJX8C9OMNOwkJZMR8vfiSGcLN1LH6hybRwTkjTdi9lDmty9vnQCa2tD2Q0h00Nu2gidPtCeFurHa6WPStWv0G4ZKdXV2gztFeBfwEdqOxw2o43ruPqS4nmWGe1DmWWt69EIGX5KkHUlZOikUoHjSFDORRVISz_Cqy9u797As7aIvH0tPl8q3o"
               />
             </div>
-            <div className="space-y-4">
+            <div className="space-y-6">
               <div className="flex flex-col xl:flex-row justify-between xl:items-center gap-4 xl:gap-0">
-                <h4 className="font-headline font-bold text-2xl">
-                  Nexus FinTech Portal
+                <h4 className="font-headline font-bold text-2xl tracking-tight leading-tight">
+                  Freshtoria Dashboard
                 </h4>
                 <span className="text-[10px] w-fit bg-secondary/10 text-secondary px-3 py-1 font-bold uppercase tracking-widest">
                   QA Automation Contributor
@@ -41,7 +41,7 @@ export default function SelectedWorkSection() {
                     Challenge
                   </span>
                   <p className="text-xs font-medium">
-                    Frequent regressions in checkout flow were affecting conversion rates and requiring manual retesting.
+                    The development team does not yet have automated testing for the financial accounting and inventory features. Changes to these features often cause regressions that aren’t detected until after deployment.
                   </p>
                 </div>
                 <div>
@@ -49,7 +49,7 @@ export default function SelectedWorkSection() {
                     Action
                   </span>
                   <p className="text-xs font-medium">
-                    Built and maintained a Playwright test suite covering 30+ critical user scenarios for checkout.
+                    I automated the key regression scenarios using Playwright and integrated them into GitHub Actions.
                   </p>
                 </div>
                 <div>
@@ -57,7 +57,7 @@ export default function SelectedWorkSection() {
                     Result
                   </span>
                   <p className="text-xs font-medium">
-                    Reduced post-release checkout bugs by catching issues in CI/CD before deployment.
+                    Testing became more efficient, and the team received feedback faster before deployment.
                   </p>
                 </div>
               </div>
@@ -73,22 +73,22 @@ export default function SelectedWorkSection() {
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBinFM2GxLHY6vQGdUWpSI8LeRWZG56S01_qkOIV6fWW937Qbra8df09UEkTnd1eJ4_KdGQFNE9op1JWY5JZxVK3OXwlKqbzWGvSkIcRM-xsHkpZaepK2vfaVxuCqe-MOKahxiPI0WXNxiaLEZO5YpHklpS6yBdkOSllAgD0x_TGf4q3ZwAaWPFFnINUbh-_uF-MVQ8gm9mZDId9-RmefOajYmAFfNg-vLjr2K3ypqSV156gAc4f0U_0crkfz7y_EYfIYw6Sx0nuIg"
               />
             </div>
-            <div className="space-y-4">
+            <div className="space-y-6">
               <div className="flex flex-col xl:flex-row justify-between xl:items-center gap-4 xl:gap-0">
-                <h4 className="font-headline font-bold text-2xl">
-                  Vortex Data Engine
+                <h4 className="font-headline font-bold text-2xl tracking-tight leading-tight">
+                  RoomCraft
                 </h4>
                 <span className="text-[10px] w-fit bg-secondary/10 text-secondary px-3 py-1 font-bold uppercase tracking-widest">
-                  Automation Shell
+                  QA Manual & Front End Developer
                 </span>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-zinc-200">
                 <div>
                   <span className="block text-[10px] text-zinc-400 uppercase font-bold mb-1">
-                    Problem
+                    Challenge
                   </span>
                   <p className="text-xs font-medium">
-                    Manual validation of complex data tables causing delays in the CI/CD pipeline.
+                    I want to build an interactive and responsive 3D app for interior design, while also learning how to implement testing in modern apps.
                   </p>
                 </div>
                 <div>
@@ -96,7 +96,7 @@ export default function SelectedWorkSection() {
                     Action
                   </span>
                   <p className="text-xs font-medium">
-                    Integrated automated visual testing to detect UI discrepancies instantly.
+                    In addition to contributing to the development of the user interface, I created test cases for various scenarios, conducted exploratory testing, and documented bugs in detail.
                   </p>
                 </div>
                 <div>
@@ -104,7 +104,7 @@ export default function SelectedWorkSection() {
                     Result
                   </span>
                   <p className="text-xs font-medium">
-                    Improved release confidence by integrating automated UI validation.
+                    I successfully identified various bugs prior to the project presentation and improved the stability and quality of the application’s user interface.
                   </p>
                 </div>
               </div>

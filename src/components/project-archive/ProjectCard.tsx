@@ -1,93 +1,91 @@
 export interface Project {
-  year: string;
+  roleDesc: string;
   category: string;
   title: string;
-  tags: string[];
+  tech: string;
   problem: string;
-  action: string;
-  impact: string;
+  myRole: string | string[];
+  result: string | string[];
   caseStudyHref?: string;
   demoHref?: string;
+  sourceHref?: string;
 }
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
-    <article className="group grid grid-cols-12 gap-8 py-12 border-b border-outline-variant/20 hover:bg-surface-container-lowest transition-colors px-4 -mx-4">
-      {/* Left: Meta + Title + Tags */}
-      <div className="col-span-12 lg:col-span-4 space-y-4">
-        <div className="flex items-center gap-3">
-          <span className="text-xs font-bold text-on-surface-variant opacity-60">
-            {project.year}
-          </span>
-          <span className="h-px w-8 bg-outline-variant" />
-          <span className="text-[10px] font-bold uppercase tracking-widest text-secondary">
-            {project.category}
-          </span>
-        </div>
-        <h3 className="text-4xl font-black uppercase tracking-tight leading-none group-hover:text-secondary transition-colors font-headline">
+    <article className="group grid grid-cols-1 lg:grid-cols-12 items-start gap-8 lg:gap-12 py-16 border-b border-outline-variant/20 hover:bg-surface-container-lowest transition-colors px-4 -mx-4">
+      <div className="lg:col-span-5 space-y-4">
+        <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tight leading-tight text-primary group-hover:text-secondary transition-colors">
           {project.title}
-        </h3>
-        <div className="flex flex-wrap gap-2 pt-2">
-          {project.tags.map((tag) => (
-            <span
-              key={tag}
-              className="px-2 py-0.5 bg-surface-container text-[10px] font-bold uppercase tracking-tighter font-label"
+        </h2>
+        <p className="text-sm font-bold text-on-surface-variant/60 uppercase tracking-widest">
+          {project.roleDesc}
+        </p>
+        <div className="pt-4 flex flex-wrap gap-6 font-label text-[10px] font-black uppercase tracking-widest">
+          {project.caseStudyHref && (
+            <a
+              className="flex items-center gap-1 hover:text-secondary transition-colors border-b border-black/10 pb-1"
+              href={project.caseStudyHref}
             >
-              {tag}
-            </span>
-          ))}
+              Case Study <span className="material-symbols-outlined text-[14px]">arrow_outward</span>
+            </a>
+          )}
+          {project.demoHref && (
+            <a
+              className="flex items-center gap-1 hover:text-secondary transition-colors border-b border-black/10 pb-1"
+              href={project.demoHref}
+            >
+              Live Demo <span className="material-symbols-outlined text-[14px]">open_in_new</span>
+            </a>
+          )}
+          {project.sourceHref && (
+            <a
+              className="flex items-center gap-1 hover:text-secondary transition-colors border-b border-black/10 pb-1"
+              href={project.sourceHref}
+            >
+              Source Code <span className="material-symbols-outlined text-[14px]">code</span>
+            </a>
+          )}
         </div>
       </div>
-
-      {/* Center: Problem + Action */}
-      <div className="col-span-12 md:col-span-6 lg:col-span-5 space-y-6">
-        <div>
-          <h4 className="text-[10px] font-bold uppercase tracking-widest text-primary mb-2 font-label">
-            Problem
-          </h4>
-          <p className="text-on-surface-variant text-sm leading-relaxed font-body">
-            {project.problem}
-          </p>
+      <div className="lg:col-span-7 space-y-6">
+        <div className="space-y-2">
+          <span className="text-[10px] font-black uppercase tracking-widest text-secondary">Tech:</span>
+          <p className="text-sm font-medium text-on-surface-variant">{project.tech}</p>
         </div>
-        <div>
-          <h4 className="text-[10px] font-bold uppercase tracking-widest text-primary mb-2 font-label">
-            Action
-          </h4>
-          <p className="text-on-surface-variant text-sm leading-relaxed font-body">
-            {project.action}
-          </p>
-        </div>
-      </div>
-
-      {/* Right: Impact + Links */}
-      <div className="col-span-12 md:col-span-6 lg:col-span-3 flex flex-col justify-between items-start md:items-end">
-        <div className="bg-secondary/5 border-l-2 border-secondary p-4 w-full md:w-auto md:min-w-[200px]">
-          <h4 className="text-[10px] font-bold uppercase tracking-widest text-secondary mb-1 font-label">
-            Impact
-          </h4>
-          <p className="text-xl font-black text-primary leading-tight font-headline">
-            {project.impact}
-          </p>
-        </div>
-        <div className="flex gap-6 mt-8 md:mt-0 font-label text-[10px] font-black uppercase tracking-widest">
-          <a
-            className="flex items-center gap-2 hover:text-secondary transition-colors border-b border-primary hover:border-secondary pb-1"
-            href={project.caseStudyHref || "#"}
-          >
-            Case Study{" "}
-            <span className="material-symbols-outlined !text-xs">
-              arrow_outward
-            </span>
-          </a>
-          <a
-            className="flex items-center gap-2 hover:text-secondary transition-colors border-b border-primary hover:border-secondary pb-1"
-            href={project.demoHref || "#"}
-          >
-            Demo{" "}
-            <span className="material-symbols-outlined !text-xs">
-              open_in_new
-            </span>
-          </a>
+        <div className="text-sm leading-relaxed text-on-surface-variant/80 space-y-6 max-w-[560px]">
+          <div className="space-y-2">
+            <span className="text-[10px] font-black uppercase tracking-widest text-primary">Problem:</span>
+            <p>{project.problem}</p>
+          </div>
+          <div className="space-y-2">
+            <span className="text-[10px] font-black uppercase tracking-widest text-primary">My Role:</span>
+            <div className="pl-4">
+              {Array.isArray(project.myRole) ? (
+                <ul className="list-disc space-y-1">
+                  {project.myRole.map((role, idx) => (
+                    <li key={idx}>{role}</li>
+                  ))}
+                </ul>
+              ) : (
+                <p>{project.myRole}</p>
+              )}
+            </div>
+          </div>
+          <div className="space-y-2">
+            <span className="text-[10px] font-black uppercase tracking-widest text-primary">Result:</span>
+            <div className="pl-4 font-bold text-primary">
+              {Array.isArray(project.result) ? (
+                <ul className="list-disc space-y-1">
+                  {project.result.map((res, idx) => (
+                    <li key={idx}>{res}</li>
+                  ))}
+                </ul>
+              ) : (
+                <p>{project.result}</p>
+              )}
+            </div>
+          </div>
         </div>
       </div>
     </article>

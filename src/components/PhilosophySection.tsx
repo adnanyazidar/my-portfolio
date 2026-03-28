@@ -1,31 +1,39 @@
 export default function PhilosophySection() {
   return (
-    <section id="philosophy" className="py-24 md:py-32 xl:py-40 px-6 md:px-12 xl:px-20 2xl:px-[120px] bg-white relative">
-      <div className="w-full max-w-[1920px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 xl:gap-16 items-start">
-        <div className="lg:col-span-4">
-          <h2 className="font-headline font-bold text-sm uppercase tracking-[0.3em] text-secondary mb-8">
-            Philosophy
-          </h2>
-          <blockquote className="font-body text-xl lg:text-2xl text-zinc-600 italic leading-relaxed border-l-2 border-secondary pl-6">
-            &quot;Quality is not a final step &mdash; it&apos;s built from the start.&quot;
-          </blockquote>
-        </div>
-        <div className="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="space-y-8">
+    <section id="philosophy" className="py-[100px] md:py-[120px] px-6 md:px-12 xl:px-20 2xl:px-[120px] bg-white relative">
+      <div className="w-full max-w-[1920px] mx-auto flex flex-col gap-16 lg:gap-24">
+        
+        {/* Top Row */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+          <div className="lg:col-span-5">
+            <h2 className="font-headline font-bold text-sm uppercase tracking-[0.3em] text-secondary mb-8">
+              Philosophy
+            </h2>
+            <blockquote className="font-body text-xl lg:text-2xl text-zinc-600 italic leading-relaxed border-l-2 border-secondary pl-6">
+              &quot;Quality is not a final step &mdash; it&apos;s built from the start.&quot;
+            </blockquote>
+          </div>
+          
+          <div className="lg:col-span-7">
             <div className="group border-l border-zinc-200 pl-8 py-2">
-              <h4 className="font-headline font-bold text-lg mb-4">
+              <h4 className="font-headline font-bold text-lg leading-tight tracking-tight mb-6">
                 My Approach to Quality
               </h4>
-              <p className="text-on-surface-variant leading-relaxed">
-                I focus on catching issues early by integrating testing into the development process. Quality isn’t an afterthought — it’s built step by step.
+              <p className="text-on-surface-variant leading-relaxed max-w-[560px] mb-6">
+                I focus on building quality step by step,
+                starting from simple and maintainable tests.
               </p>
-              <ul className="mt-6 space-y-4">
+              <p className="text-on-surface-variant leading-relaxed max-w-[560px]">
+                As I grow, I continue learning how to improve test coverage,
+                reduce repetitive manual work, and make testing more efficient.
+              </p>
+              <ul className="mt-6 space-y-6">
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined text-secondary text-sm">
                     check_circle
                   </span>
                   <span className="text-sm font-medium">
-                    Automated testing integrated early
+                    Build automated tests for repetitive scenarios
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -33,7 +41,7 @@ export default function PhilosophySection() {
                     check_circle
                   </span>
                   <span className="text-sm font-medium">
-                    Clean, maintainable test suites
+                    Keep tests simple, readable, and maintainable
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -41,32 +49,44 @@ export default function PhilosophySection() {
                     check_circle
                   </span>
                   <span className="text-sm font-medium">
-                    Performance and reliability awareness
+                    Focus on catching real issues that impact users
                   </span>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="bg-surface-container-low p-10 flex flex-col justify-between">
-            <div>
-              <span className="font-label text-[10px] tracking-widest text-zinc-400 uppercase mb-4 block">
-                About Me
-              </span>
-              <p className="font-body text-zinc-600 leading-relaxed mb-8">
-                I’m Adnan, a QA Automation Engineer with a passion for building reliable testing systems. I combine technical testing with a front-end perspective to ensure that what works under the hood also feels right to the user.
-              </p>
-            </div>
-            <div className="border-t border-zinc-200 pt-8">
-              <div className="flex items-center gap-2 font-mono text-sm font-bold">
-                <span>QA</span>
-                <span className="text-zinc-400">·</span>
-                <span>Front-end</span>
-                <span className="text-zinc-400">·</span>
-                <span>UX Awareness</span>
+        </div>
+
+        {/* Bottom Row: About Me */}
+        <div className="bg-surface-container-low p-10 lg:p-16 w-full">
+          <div>
+            <span className="font-label text-[10px] tracking-widest text-zinc-400 uppercase mb-8 block">
+              About Me
+            </span>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+              <div>
+                <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
+                  I am a QA Automation Engineer with a background in front-end development,
+                  which helps me understand both how systems are built and how users experience them.
+                </p>
+                <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
+                  I focus on building automated tests to improve product quality and reduce manual effort,
+                  while continuing to learn best practices in test automation, CI/CD, and system reliability.
+                </p>
+              </div>
+              <div>
+                <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
+                  My goal is to grow into an engineer who not only tests features,
+                  but also contributes to building better and more reliable systems.
+                </p>
+                <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
+                  Currently learning: API testing, CI/CD basics, and test automation best practices.
+                </p>
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );

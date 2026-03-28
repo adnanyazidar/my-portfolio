@@ -1,32 +1,36 @@
 export default function HeroSection() {
   return (
-    <section className="min-h-screen bg-black flex items-center pt-40 md:pt-48 pb-24 md:pb-32 xl:pb-40 px-6 md:px-12 xl:px-20 2xl:px-[120px] relative overflow-hidden">
+    <section className="min-h-screen bg-black flex items-center py-[100px] md:py-[120px] px-6 md:px-12 xl:px-20 2xl:px-[120px] relative overflow-hidden">
       <div className="absolute inset-0 opacity-20 pointer-events-none">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-secondary blur-[120px] rounded-full -mr-64 -mt-64"></div>
       </div>
-      <div className="w-full max-w-[1920px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 xl:gap-16 items-center relative z-10">
+      <div className="w-full max-w-[1920px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
         <div className="lg:col-span-7 flex flex-col items-start">
           <div className="inline-flex items-center gap-2 mb-8">
             <span className="w-2 h-2 bg-secondary rounded-full animate-pulse"></span>
-            <span className="font-label text-[10px] uppercase tracking-[0.2em] text-white/60">
+            {/* <span className="font-label text-[10px] uppercase tracking-[0.2em] text-white/60">
               Based in Indonesia | Open to Remote Worldwide
+            </span> */}
+            <span className="font-label text-[10px] uppercase tracking-[0.2em] text-white/60">
+              Hi, I'm Adnan.
             </span>
           </div>
           <h1 className="font-headline font-extrabold text-5xl md:text-7xl text-white leading-[1.1] mb-8 tracking-tight">
             QA Automation Engineer <br />
             <span className="text-white/40 italic font-light">
-              who builds reliable systems.
+              who helps build reliable and well-tested systems
             </span>
           </h1>
-          <p className="font-body text-xl text-white/70 max-w-xl leading-relaxed mb-6">
-            I automate testing pipelines and contribute to reliable web interfaces to reduce bugs and improve release confidence.
+          <p className="font-body text-xl text-white/70 max-w-[560px] leading-relaxed mb-6">
+            I focus on writing automated tests and contributing to web quality,
+            while continuously learning how to build better and more reliable products.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-6">
             <a
-              href="#case-studies"
+              href="/#case-studies"
               className="bg-white text-black px-10 py-5 font-headline font-bold tracking-widest uppercase text-[12px] hover:bg-secondary hover:text-white transition-all shadow-xl"
             >
-              VIEW CASE STUDIES
+              VIEW MY PROJECTS
             </a>
             <a
               href="/Adnan Yazid Ardiansyah - Junior Software Quality Assurance.pdf"
@@ -54,23 +58,33 @@ export default function HeroSection() {
                 <div className="flex justify-between items-center text-zinc-400">
                   <span>$ playwright test --project=chromium</span>
                 </div>
-                <div className="text-zinc-600">Running 26 tests using 4 workers</div>
+                <div className="text-zinc-600">
+                  Running 26 tests using 4 workers
+                </div>
                 <div className="flex items-center gap-4 py-2">
                   <span className="text-green-400">✔ Checkout Flow</span>
                   <span className="text-zinc-500 text-xs">0.4s</span>
                 </div>
                 <div className="grid grid-cols-3 gap-4 pt-4 border-t border-zinc-800 mt-4">
                   <div className="flex flex-col">
-                    <span className="text-[10px] text-zinc-500 uppercase">Passed</span>
+                    <span className="text-[10px] text-zinc-500 uppercase">
+                      Passed
+                    </span>
                     <span className="text-xl text-green-400 font-bold">24</span>
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-[10px] text-zinc-500 uppercase">Failed</span>
+                    <span className="text-[10px] text-zinc-500 uppercase">
+                      Failed
+                    </span>
                     <span className="text-xl text-red-400 font-bold">2</span>
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-[10px] text-zinc-500 uppercase">Coverage</span>
-                    <span className="text-xl text-secondary font-bold">87%</span>
+                    <span className="text-[10px] text-zinc-500 uppercase">
+                      Coverage
+                    </span>
+                    <span className="text-xl text-secondary font-bold">
+                      87%
+                    </span>
                   </div>
                 </div>
                 <div className="pt-4 text-zinc-500 italic text-xs">

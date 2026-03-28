@@ -3,11 +3,11 @@
 import { useState } from "react";
 
 const navLinks = [
-  { label: "Philosophy", href: "#philosophy" },
-  { label: "Stack", href: "#expertise" },
-  { label: "Why Hire Me", href: "#why-hire-me" },
-  { label: "Case Studies", href: "#case-studies" },
-  { label: "Reviews", href: "#reviews" },
+  { label: "Philosophy", href: "/#philosophy" },
+  { label: "Stack", href: "/#expertise" },
+  { label: "Why Hire Me", href: "/#why-hire-me" },
+  { label: "Case Studies", href: "/#case-studies" },
+  { label: "Reviews", href: "/#reviews" },
 ];
 
 export default function Navbar() {
@@ -17,8 +17,11 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 glass-nav shadow-[0_20px_50px_rgba(0,0,0,0.02)]">
       <div className="flex justify-between items-center w-full px-6 md:px-12 xl:px-20 2xl:px-[120px] py-6 md:py-8 max-w-[1920px] mx-auto">
         {/* Logo */}
-        <a href="/" className="text-xl font-black tracking-tighter text-primary uppercase font-headline hover:opacity-80 transition-opacity">
-          Adnan.Core
+        <a
+          href="/"
+          className="text-xl font-black tracking-tighter text-primary uppercase font-headline hover:opacity-80 transition-opacity"
+        >
+          Adnan Labs
         </a>
 
         {/* Desktop Nav */}
@@ -37,7 +40,7 @@ export default function Navbar() {
         {/* CTA + Mobile Toggle */}
         <div className="flex items-center gap-4">
           <a
-            href="#contact"
+            href="/#contact"
             className="bg-primary text-on-primary-container px-6 md:px-8 py-3 font-headline font-bold tracking-[0.04em] uppercase text-[0.875rem] transition-transform active:scale-95 hidden sm:inline-block"
           >
             Contact
@@ -76,7 +79,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="/#contact"
             onClick={() => setMobileOpen(false)}
             className="block bg-primary text-on-primary-container px-6 py-3 font-headline font-bold tracking-[0.04em] uppercase text-sm text-center mt-4"
           >

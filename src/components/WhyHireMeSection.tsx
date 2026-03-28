@@ -1,39 +1,77 @@
 export default function WhyHireMeSection() {
   return (
-    <section id="why-hire-me" className="pt-24 md:pt-32 xl:pt-40 pb-12 md:pb-16 px-6 md:px-12 xl:px-20 2xl:px-[120px] bg-white">
+    <section
+      id="why-hire-me"
+      className="py-[100px] md:py-[120px] px-6 md:px-12 xl:px-20 2xl:px-[120px] bg-white"
+    >
       <div className="w-full max-w-[1920px] mx-auto">
         {/* Why Hire */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="font-headline font-bold text-sm uppercase tracking-[0.3em] text-secondary mb-8">
-              Why Hire Me
+              Why Work With Me
             </h2>
             {/* <h3 className="font-headline font-extrabold text-4xl md:text-5xl mb-8 tracking-tighter">
               Built for Reliability.
             </h3> */}
-            <p className="text-on-surface-variant text-base md:text-lg leading-relaxed mb-12">
-              I focus on writing tests that catch real issues, not just flaky coverage. My front-end background helps me understand what users actually care about, so my testing adds value to both developers and the final product.
+            <p className="text-on-surface-variant text-base md:text-lg leading-relaxed max-w-[560px] mb-8">
+              I focus on writing tests that help catch real issues
+              and improve product quality from a user perspective.
+            </p>
+            <p className="text-on-surface-variant text-base md:text-lg leading-relaxed max-w-[560px] mb-12">
+              With my front-end background, I understand how users interact with products,
+              so I aim to build tests that are not only technical but also meaningful.
             </p>
             <div className="space-y-6">
               <div className="flex gap-6 items-start">
-                <span className="text-2xl font-headline font-bold text-secondary">01</span>
+                <span className="text-2xl font-headline font-bold text-secondary">
+                  01
+                </span>
                 <div>
                   <h4 className="font-headline font-bold uppercase text-xs tracking-widest mb-2">
-                    Efficiency
+                    Attention to Detail
                   </h4>
-                  <p className="text-sm text-zinc-500">
-                    Automating critical user journeys to reduce repetitive manual testing.
+                  <p className="text-sm text-zinc-500 max-w-[560px]">
+                    I pay attention to small issues that can impact user experience.
                   </p>
                 </div>
               </div>
               <div className="flex gap-6 items-start">
-                <span className="text-2xl font-headline font-bold text-secondary">02</span>
+                <span className="text-2xl font-headline font-bold text-secondary">
+                  02
+                </span>
                 <div>
                   <h4 className="font-headline font-bold uppercase text-xs tracking-widest mb-2">
-                    Clarity
+                    Clear communication
                   </h4>
-                  <p className="text-sm text-zinc-500">
-                    Clear bug reports and documentation that help developers fix issues faster.
+                  <p className="text-sm text-zinc-500 max-w-[560px]">
+                    I document my work clearly so it is easy to understand and collaborate.
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-6 items-start">
+                <span className="text-2xl font-headline font-bold text-secondary">
+                  03
+                </span>
+                <div>
+                  <h4 className="font-headline font-bold uppercase text-xs tracking-widest mb-2">
+                    Fast learner
+                  </h4>
+                  <p className="text-sm text-zinc-500 max-w-[560px]">
+                    I continuously learn new tools and improve my testing approach.
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-6 items-start">
+                <span className="text-2xl font-headline font-bold text-secondary">
+                  04
+                </span>
+                <div>
+                  <h4 className="font-headline font-bold uppercase text-xs tracking-widest mb-2">
+                    Front‑end empathy
+                  </h4>
+                  <p className="text-sm text-zinc-500 max-w-[560px]">
+                    I understand how UI works, helping me test more effectively.
                   </p>
                 </div>
               </div>
