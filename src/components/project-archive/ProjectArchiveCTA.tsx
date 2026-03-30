@@ -11,10 +11,12 @@ export default function ProjectArchiveCTA() {
             indestructible?
           </span>
         </h2>
-        <div className="pt-8">
-          <button className="px-12 py-6 bg-primary text-on-primary-container font-headline font-black uppercase tracking-[0.2em] hover:bg-secondary transition-colors text-lg">
-            Initiate Collaboration
-          </button>
+        <div className="mb-12 w-full">
+          <a href="mailto:adnanyazidar48@gmail.com">
+            <button className="px-12 py-6 bg-primary text-on-primary-container font-headline font-black uppercase tracking-[0.2em] hover:bg-secondary transition-colors text-lg">
+              Initiate Collaboration
+            </button>
+          </a>
         </div>
       </div>
     </section>

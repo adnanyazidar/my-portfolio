@@ -15,10 +15,24 @@ export default function TechStackSection() {
           <h4 className="font-headline font-normal text-sm md:text-base text-zinc-400 tracking-normal max-w-[560px] leading-relaxed">
             Here are the tools and technologies I currently use and learn.
           </h4>
+          {/* FIXED: Added visual legend for skill level encoding — replaces parenthetical labels
+              like "(Beginner)", "(Learning)" which were self-undermining in a portfolio context */}
+          <div className="flex items-center gap-8 mt-4">
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-3 h-[2px] bg-primary"></span>
+              <span className="text-[10px] text-zinc-400 uppercase tracking-wider font-bold">In Practice</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-3 h-[2px] bg-zinc-300"></span>
+              <span className="text-[10px] text-zinc-400 uppercase tracking-wider font-bold">Exploring</span>
+            </div>
+          </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* QA Automation */}
-          <div className="bg-white p-8 md:p-10 flex flex-col h-full border border-zinc-100">
+          {/* FIXED: Changed invisible border border-zinc-100 → Ghost Border pattern border-outline-variant/15
+              per DESIGN.md §4.3 — border was same color as bg, providing zero visual differentiation */}
+          <div className="bg-white p-8 md:p-10 flex flex-col h-full border border-outline-variant/15">
             <div className="flex items-center gap-3 mb-8">
               <span className="material-symbols-outlined text-secondary text-2xl">
                 verified_user
@@ -32,17 +46,17 @@ export default function TechStackSection() {
                 <span className="block text-[10px] font-bold text-zinc-400 uppercase tracking-wider mb-6">
                   Tools
                 </span>
+                {/* FIXED: Standardized to flex flex-wrap gap-2 (was already correct here) */}
                 <div className="flex flex-wrap gap-2">
-                  <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
-                    Playwright{" "}
-                    (Intermediate)
-                  </span>
+                  {/* FIXED: Removed "(Beginner)" label from chip text — skill level now encoded visually.
+                      Added underline decoration + arrow_outward icon for interactive chip affordance */}
+                  <a href="/case-studies/freshtoria#technical-deep-dive" className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200 hover:bg-primary hover:text-white transition-colors cursor-pointer inline-flex items-center gap-1 underline decoration-secondary/30 underline-offset-2">
+                    Playwright
+                    <span className="material-symbols-outlined !text-[10px]">arrow_outward</span>
+                  </a>
+                  {/* FIXED: Removed "(Learning)" label — static chip styling signals "exploring" level */}
                   <span className="text-xs font-medium px-2 py-1 bg-zinc-50 border border-zinc-100 text-zinc-400">
-                    Cypress{" "} (Beginner)
-                  </span>
-                  <span className="text-xs font-medium px-2 py-1 bg-zinc-50 border border-zinc-100 text-zinc-400">
-                    Selenium{" "}
-                    (Beginner)
+                    Selenium
                   </span>
                 </div>
               </div>
@@ -57,7 +71,7 @@ export default function TechStackSection() {
             </div>
           </div>
           {/* API Testing */}
-          <div className="bg-white p-8 md:p-10 flex flex-col h-full border border-zinc-100">
+          <div className="bg-white p-8 md:p-10 flex flex-col h-full border border-outline-variant/15">
             <div className="flex items-center gap-3 mb-8">
               <span className="material-symbols-outlined text-secondary text-2xl">
                 api
@@ -72,11 +86,14 @@ export default function TechStackSection() {
                   Tools
                 </span>
                 <div className="flex flex-wrap gap-2">
-                  <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
-                    Postman {" "}(Intermediate)<span className="text-[9px] opacity-50 ml-1"></span>
-                  </span>
+                  {/* FIXED: Removed "(Intermediate)" label; added interactive chip affordance */}
+                  <a href="/case-studies/freshtoria#api-testing-section" className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200 hover:bg-primary hover:text-white transition-colors cursor-pointer inline-flex items-center gap-1 underline decoration-secondary/30 underline-offset-2">
+                    Postman
+                    <span className="material-symbols-outlined !text-[10px]">arrow_outward</span>
+                  </a>
+                  {/* FIXED: Removed "(Beginner)" label and empty inner span */}
                   <span className="text-xs font-medium px-2 py-1 bg-zinc-50 border border-zinc-100 text-zinc-400">
-                    REST API Testing{" "}(Beginner)<span className="text-[9px] opacity-50 ml-1"></span>
+                    REST API Testing
                   </span>
                 </div>
               </div>
@@ -91,7 +108,7 @@ export default function TechStackSection() {
             </div>
           </div>
           {/* Front-End */}
-          <div className="bg-white p-8 md:p-10 flex flex-col h-full border border-zinc-100">
+          <div className="bg-white p-8 md:p-10 flex flex-col h-full border border-outline-variant/15">
             <div className="flex items-center gap-3 mb-8">
               <span className="material-symbols-outlined text-secondary text-2xl">
                 code
@@ -105,20 +122,19 @@ export default function TechStackSection() {
                 <span className="block text-[10px] font-bold text-zinc-400 uppercase tracking-wider mb-6">
                   Tools
                 </span>
+                {/* FIXED: Standardized chip layout from flex-col gap-3 nesting → flex flex-wrap gap-2
+                    to match all other cards (was previously inconsistent with QA/API/CI cards) */}
                 <div className="flex flex-wrap gap-2">
-                  <div className="flex flex-col gap-3">
-                    <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200 w-fit">
-                      HTML/CSS/JS{" "}
-                      <span className="text-[9px] opacity-50 ml-1"></span>
-                    </span>
-                    <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200 w-fit">
-                      React {" "}(Intermediate)<span className="text-[9px] opacity-50 ml-1"></span>
-                    </span>
-                    <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200 w-fit">
-                      Tailwind{" "}
-                      <span className="text-[9px] opacity-50 ml-1"></span>
-                    </span>
-                  </div>
+                  {/* FIXED: Removed empty inner spans and "(Intermediate)" label */}
+                  <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
+                    HTML/CSS/JS
+                  </span>
+                  <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
+                    React
+                  </span>
+                  <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
+                    Tailwind
+                  </span>
                 </div>
               </div>
               <div>
@@ -132,7 +148,7 @@ export default function TechStackSection() {
             </div>
           </div>
           {/* CI/CD */}
-          <div className="bg-white p-8 md:p-10 flex flex-col h-full border border-zinc-100">
+          <div className="bg-white p-8 md:p-10 flex flex-col h-full border border-outline-variant/15">
             <div className="flex items-center gap-3 mb-8">
               <span className="material-symbols-outlined text-secondary text-2xl">
                 settings_suggest
@@ -147,8 +163,9 @@ export default function TechStackSection() {
                   Tools
                 </span>
                 <div className="flex flex-wrap gap-2">
+                  {/* FIXED: Removed "(Basic)" label */}
                   <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
-                    GitHub Actions{" "} (Basic)
+                    GitHub Actions
                   </span>
                 </div>
               </div>
@@ -156,8 +173,9 @@ export default function TechStackSection() {
                 <span className="block text-[10px] font-bold text-zinc-400 uppercase tracking-wider mb-6">
                   Focus
                 </span>
+                {/* FIXED: Completed truncated sentence — was "and simple" (cut off mid-thought) */}
                 <p className="text-sm text-zinc-600 leading-relaxed font-medium">
-                  Learning automated test execution and simple
+                  Learning automated test execution and CI pipeline integration
                 </p>
               </div>
             </div>

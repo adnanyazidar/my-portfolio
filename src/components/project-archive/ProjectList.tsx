@@ -7,7 +7,6 @@ const CATEGORIES = [
   "All Projects",
   "QA Automation",
   "Front-End",
-  "UI/UX",
 ] as const;
 
 const projects: Project[] = [
@@ -27,12 +26,12 @@ const projects: Project[] = [
       "The team receives early notification if there is a regression.",
       "The time spent on manual regression testing has been reduced, giving the team greater confidence in new releases.",
     ],
-    caseStudyHref: "#",
+    caseStudyHref: "/case-studies/freshtoria",
     demoHref: "#",
-    // sourceHref: "#",
+    sourceHref: "https://github.com/adnanyazidar/freshtoria-dashboard",
   },
   {
-    roleDesc: "Front-end Developer & QA Enthusiast | 2024",
+    roleDesc: "Front-end Developer & QA Manual Tester | 2025",
     category: "Personal Project",
     title: "RoomCraft",
     tech: "React, Tailwind CSS, Redux, React Three Fiber, Firebase",
@@ -48,9 +47,9 @@ const projects: Project[] = [
       "I gained experience building a full-stack project with a focus on user-facing quality.",
       "This project serves as a portfolio piece demonstrating my interest in testing interactive applications.",
     ],
-    caseStudyHref: "#",
+    caseStudyHref: "/case-studies/roomcraft",
     demoHref: "https://room-craft-three.vercel.app/",
-    sourceHref: "#",
+    sourceHref: "https://github.com/fauzan3596/room-craft",
   },
   {
     roleDesc: "Front-end Contributor | 2024",
@@ -70,26 +69,26 @@ const projects: Project[] = [
     ],
     demoHref: "https://arjuna.cimbniaga.co.id/auth/sign-in",
   },
-  {
-    roleDesc: "UI/UX Design Contributor | 2022",
-    category: "UI/UX",
-    title: "SurveyAsia (PT Citiasia Internasional)",
-    tech: "Figma, Design system, Prototyping",
-    problem:
-      "The survey platform has a simple and less-than-intuitive interface, especially for non-technical users. Some features, such as questionnaire creation and result visualization, are difficult to navigate.",
-    myRole: [
-      "Analyzed user flows based on feedback from the product team and early users.",
-      "Redesigned the interface for the survey creation page, respondent management, and results dashboard.",
-      "Creating interactive prototypes in Figma for internal testing before development.",
-    ],
-    result: [
-      "The new design was approved by the product team and served as the basis for front-end development.",
-      "I learned the collaborative process between design, development, and product in a real-world work environment.",
-      "I gained a deeper understanding of the importance of user-friendly design for data applications.",
-    ],
-    caseStudyHref: "#",
-    demoHref: "https://surveyasia.id/",
-  },
+  // {
+  //   roleDesc: "UI/UX Design Contributor | 2022",
+  //   category: "UI/UX",
+  //   title: "SurveyAsia (PT Citiasia Internasional)",
+  //   tech: "Figma, Design system, Prototyping",
+  //   problem:
+  //     "The survey platform has a simple and less-than-intuitive interface, especially for non-technical users. Some features, such as questionnaire creation and result visualization, are difficult to navigate.",
+  //   myRole: [
+  //     "Analyzed user flows based on feedback from the product team and early users.",
+  //     "Redesigned the interface for the survey creation page, respondent management, and results dashboard.",
+  //     "Creating interactive prototypes in Figma for internal testing before development.",
+  //   ],
+  //   result: [
+  //     "The new design was approved by the product team and served as the basis for front-end development.",
+  //     "I learned the collaborative process between design, development, and product in a real-world work environment.",
+  //     "I gained a deeper understanding of the importance of user-friendly design for data applications.",
+  //   ],
+  //   caseStudyHref: "#",
+  //   demoHref: "https://surveyasia.id/",
+  // },
 ];
 
 export default function ProjectList() {
