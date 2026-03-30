@@ -31,7 +31,10 @@ export default function SelectedWorkSection() {
           {/* Project 1 */}
           {/* FIXED: Added flex flex-col for equal bottom alignment */}
           <div className="space-y-6 group cursor-pointer flex flex-col">
-            <a href="/case-studies/freshtoria" className="bg-surface-container-highest aspect-[16/10] overflow-hidden block">
+            <a
+              href="/case-studies/freshtoria"
+              className="bg-surface-container-highest aspect-[16/10] overflow-hidden block"
+            >
               <img
                 alt="Financial Dashboard UI"
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
@@ -103,12 +106,15 @@ export default function SelectedWorkSection() {
           {/* Project 2 */}
           {/* FIXED: Added flex flex-col for equal bottom alignment */}
           <div className="space-y-6 group cursor-pointer flex flex-col">
-            <a href="/case-studies/roomcraft" className="bg-surface-container-highest aspect-[16/10] overflow-hidden block">
+            <a
+              href="/case-studies/roomcraft"
+              className="bg-surface-container-highest aspect-[16/10] overflow-hidden block"
+            >
               <img
-                alt="Data Visualization"
+                alt="Interior Design 3D App"
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-                data-alt="Abstract data visualization on a tablet screen with colorful graphs and charts, shot with shallow depth of field on a clean white desk."
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBinFM2GxLHY6vQGdUWpSI8LeRWZG56S01_qkOIV6fWW937Qbra8df09UEkTnd1eJ4_KdGQFNE9op1JWY5JZxVK3OXwlKqbzWGvSkIcRM-xsHkpZaepK2vfaVxuCqe-MOKahxiPI0WXNxiaLEZO5YpHklpS6yBdkOSllAgD0x_TGf4q3ZwAaWPFFnINUbh-_uF-MVQ8gm9mZDId9-RmefOajYmAFfNg-vLjr2K3ypqSV156gAc4f0U_0crkfz7y_EYfIYw6Sx0nuIg"
+                data-alt="3D interior design interface on a laptop screen with furniture visualization and modern UI design."
+                src="../../asset/room.png"
               />
             </a>
             <div className="space-y-6">
