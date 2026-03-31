@@ -1,8 +1,12 @@
+import QAApproachSection from "./QAApproachSection";
+
 export default function PhilosophySection() {
   return (
-    <section id="philosophy" className="py-[100px] md:py-[120px] px-6 md:px-12 xl:px-20 2xl:px-[120px] bg-white relative">
+    <section
+      id="philosophy"
+      className="py-[100px] md:py-[120px] px-6 md:px-12 xl:px-20 2xl:px-[120px] bg-white relative"
+    >
       <div className="w-full max-w-[1920px] mx-auto flex flex-col gap-16 lg:gap-24">
-        
         {/* Top Row */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           <div className="lg:col-span-5">
@@ -10,18 +14,19 @@ export default function PhilosophySection() {
               Philosophy
             </h2>
             <blockquote className="font-body text-xl lg:text-2xl text-zinc-600 italic leading-relaxed border-l-2 border-secondary pl-6">
-              &quot;Quality is not a final step &mdash; it&apos;s built from the start.&quot;
+              &quot;Quality is not a final step &mdash; it&apos;s built from the
+              start.&quot;
             </blockquote>
           </div>
-          
+
           <div className="lg:col-span-7">
             <div className="group border-l border-zinc-200 pl-8 py-2">
               <h4 className="font-headline font-bold text-lg leading-tight tracking-tight mb-6">
                 My Approach to Quality
               </h4>
               <p className="text-on-surface-variant leading-relaxed max-w-[560px] mb-6">
-                I focus on building quality step by step,
-                starting from simple and maintainable tests.
+                I focus on building quality step by step, starting from simple
+                and maintainable tests.
               </p>
               <p className="text-on-surface-variant leading-relaxed max-w-[560px]">
                 As I grow, I continue learning how to improve test coverage,
@@ -66,28 +71,41 @@ export default function PhilosophySection() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div>
                 <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
-                  I am a QA Automation Engineer with a background in front-end development,
-                  which helps me understand both how systems are built and how users experience them.
+                  I am a QA Automation Engineer with a background in Frontend
+                  development, which helps me understand both how systems are
+                  built and how users experience them.
                 </p>
                 <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
-                  I focus on building automated tests to improve product quality and reduce manual effort,
-                  while continuing to learn best practices in test automation, CI/CD, and system reliability.
+                  I began my career as a Frontend developer, where I developed a
+                  strong understanding of UI behavior, edge cases, and real user
+                  interactions. This experience naturally led me to transition
+                  into QA, where I focus on improving reliability, usability,
+                  and product quality through testing and automation.
+                </p>
+                <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
+                  I build automated tests to improve product quality, reduce
+                  manual effort, and support faster, safer releases while
+                  continuously deepening my knowledge in test automation, CI/CD,
+                  and system reliability.
                 </p>
               </div>
               <div>
                 <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
-                  My goal is to grow into an engineer who not only tests features,
-                  but also contributes to building better and more reliable systems.
+                  My goal is to grow into an engineer who not only tests
+                  features, but also contributes to building better and more
+                  reliable systems.
                 </p>
                 <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
-                  Currently learning: API testing, CI/CD basics, and test automation best practices.
+                  Currently learning: API testing, CI/CD fundamentals, and test
+                  automation best practices.
                 </p>
               </div>
             </div>
           </div>
         </div>
-
       </div>
+
+      <QAApproachSection />
     </section>
   );
 }

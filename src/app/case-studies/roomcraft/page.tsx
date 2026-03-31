@@ -12,7 +12,7 @@ export default function RoomCraftCaseStudy() {
   return (
     <>
       <Navbar />
-      <main className="pt-32 pb-24 px-6 md:px-12 xl:px-20 2xl:px-[120px] max-w-[1920px] mx-auto w-full">
+      <main className="pt-16 pb-16 px-6 md:px-12 xl:px-20 2xl:px-[120px] max-w-[1920px] mx-auto w-full">
         <a
           href="/#case-studies"
           className="text-sm font-label font-bold tracking-widest uppercase text-primary hover:text-secondary mb-12 inline-flex items-center gap-2 transition-colors"
@@ -28,7 +28,7 @@ export default function RoomCraftCaseStudy() {
 
         {/* 1. Hero (Impact First) */}
         <div className="mb-16">
-          <h1 className="font-headline font-extrabold text-5xl md:text-7xl tracking-tighter leading-tight mb-6">
+          <h1 className="font-headline font-extrabold text-5xl md:text-7xl tracking-normal leading-tight mb-6">
             Ensuring Visual Perfection in RoomCraft: A 3D Interactive App
           </h1>
           <p className="text-2xl md:text-3xl text-zinc-600 font-medium max-w-4xl leading-relaxed mb-10">
@@ -36,20 +36,6 @@ export default function RoomCraftCaseStudy() {
             prototype presentation through structured exploratory testing and
             precise bug reporting.
           </p>
-          <div className="flex flex-wrap gap-3 mb-8">
-            <span className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">
-              QA Manual
-            </span>
-            <span className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">
-              Frontend Development
-            </span>
-            <span className="px-3 py-1 bg-zinc-100 text-zinc-700 text-sm rounded-full">
-              React Three Fiber
-            </span>
-            <span className="px-3 py-1 bg-zinc-100 text-zinc-700 text-sm rounded-full">
-              3-person team
-            </span>
-          </div>
           <div className="flex flex-wrap gap-4 sticky top-[80px] md:top-[96px] z-40 bg-zinc-50/95 backdrop-blur-md py-4 -mx-6 px-6 md:-mx-12 md:px-12 xl:-mx-20 xl:px-20 2xl:-mx-[120px] 2xl:px-[120px] shadow-sm transition-all duration-300">
             <a
               href="https://github.com/fauzan3596/room-craft"
@@ -90,8 +76,8 @@ export default function RoomCraftCaseStudy() {
         </div>
 
         {/* Project Metadata & Challenges */}
-        <section className="mx-auto py-20 border-t border-outline-variant/10">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-24">
+        <section className="mx-auto py-12 border-t border-outline-variant/10">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
             <aside className="lg:col-span-3 space-y-12">
               <div>
                 <h4 className="text-[0.75rem] font-semibold tracking-widest text-on-surface-variant uppercase mb-6">
@@ -108,7 +94,7 @@ export default function RoomCraftCaseStudy() {
                   <p className="text-[0.75rem] font-semibold tracking-widest text-on-surface-variant uppercase mb-1">
                     Duration
                   </p>
-                  <p className="text-sm font-medium">1 Month</p>
+                  <p className="text-sm font-medium">3 Month</p>
                 </div>
                 <div>
                   <p className="text-[0.75rem] font-semibold tracking-widest text-on-surface-variant uppercase mb-1">
@@ -210,11 +196,11 @@ export default function RoomCraftCaseStudy() {
               </div>
 
               {/* RoomCraft's story */}
-              <div className="max-w-2xl mb-20">
-                <h2 className="text-[2rem] font-semibold tracking-tight mb-12">
+              <div className="max-w-2xl mb-12">
+                <h2 className="text-[2rem] font-semibold tracking-normal mb-12">
                   RoomCraft&apos;s Story
                 </h2>
-                <div className="space-y-10 text-lg leading-[1.7] text-on-surface-variant">
+                <div className="space-y-10 text-lg leading-relaxed text-on-surface-variant">
                   <p>
                     RoomCraft began as an ambitious project to simplify interior
                     design through an immersive 3D experience. Built with React,
@@ -240,12 +226,12 @@ export default function RoomCraftCaseStudy() {
               </div>
 
               {/* QA Strategy */}
-              <div className="mb-20" id="qa-strategy">
-                <h2 className="text-[2rem] font-semibold tracking-tight mb-8">
+              <div className="mb-12" id="qa-strategy">
+                <h2 className="text-[2rem] font-semibold tracking-normal mb-8">
                   Testing Strategy
                 </h2>
                 <div className="bg-surface-container-low border border-outline-variant/15 rounded-xl p-10">
-                  <p className="text-lg leading-[1.7] text-on-surface-variant mb-10">
+                  <p className="text-lg leading-relaxed text-on-surface-variant mb-10">
                     To ensure RoomCraft delivered a flawless 3D design
                     experience, I implemented a structured, user-centric QA
                     approach.
@@ -304,9 +290,9 @@ export default function RoomCraftCaseStudy() {
               </div>
 
               {/* Key Technical Insights */}
-              <div className="mb-20">
+              <div className="mb-12">
                 <div className="flex items-center justify-between mb-8">
-                  <h2 className="text-[2rem] font-semibold tracking-tight">
+                  <h2 className="text-[2rem] font-semibold tracking-normal">
                     Key Technical Insights
                   </h2>
                   <span className="text-[0.75rem] font-semibold tracking-widest text-on-surface-variant uppercase">
@@ -361,9 +347,9 @@ export default function RoomCraftCaseStudy() {
               </div>
 
               {/* Visual Rendering & Interaction Bugs */}
-              <div className="mb-20">
+              <div className="mb-12">
                 <div className="flex items-center justify-between mb-8">
-                  <h2 className="text-[2rem] font-semibold tracking-tight">
+                  <h2 className="text-[2rem] font-semibold tracking-normal">
                     Visual Rendering &amp; Interaction Bugs
                   </h2>
                   <span className="text-[0.75rem] font-semibold tracking-widest text-on-surface-variant uppercase">
@@ -461,8 +447,8 @@ export default function RoomCraftCaseStudy() {
               </div>
 
               {/* Key Contributions */}
-              <div className="mb-20">
-                <h2 className="text-[2rem] font-semibold tracking-tight mb-8">
+              <div className="mb-12">
+                <h2 className="text-[2rem] font-semibold tracking-normal mb-8">
                   Key Contributions
                 </h2>
                 <div className="bg-surface-container-lowest border border-outline-variant/20 p-8 rounded-xl">
@@ -549,11 +535,11 @@ export default function RoomCraftCaseStudy() {
               </div>
 
               {/* Soft CTA */}
-              <div className="mb-20 bg-primary/5 border border-primary/20 rounded-2xl p-8 md:p-12 flex flex-col items-center text-center">
+              <div className="mb-12 bg-primary/5 border border-primary/20 rounded-2xl p-8 md:p-12 flex flex-col items-center text-center">
                 <span className="material-symbols-outlined text-secondary text-4xl mb-6">
                   rocket_launch
                 </span>
-                <p className="text-xl md:text-2xl font-bold tracking-tight text-primary mb-8 max-w-2xl">
+                <p className="text-xl md:text-2xl font-bold tracking-normal text-primary mb-8 max-w-2xl">
                   Ready to ensure visual perfection in your digital products
                   through meticulous QA?
                 </p>
@@ -566,8 +552,8 @@ export default function RoomCraftCaseStudy() {
               </div>
 
               {/* Results Section */}
-              <div className="mb-24">
-                <h2 className="text-[2rem] font-semibold tracking-tight mb-8">
+              <div className="mb-12">
+                <h2 className="text-[2rem] font-semibold tracking-normal mb-8">
                   Measurable Impact
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -602,7 +588,7 @@ export default function RoomCraftCaseStudy() {
                       </span>{" "}
                       Timeline
                     </p>
-                    <p className="text-4xl font-bold text-secondary">1 Month</p>
+                    <p className="text-4xl font-bold text-secondary">3 Month</p>
                     <p className="text-xs text-on-surface-variant mt-2">
                       From concept to delivery
                     </p>
@@ -626,9 +612,9 @@ export default function RoomCraftCaseStudy() {
         </section>
 
         {/* Learnings & Testimonial */}
-        <section className="mx-auto py-20 border-t border-outline-variant/10 w-full mb-20">
+        <section className="mx-auto py-12 border-t border-outline-variant/10 w-full mb-12">
           <div className="w-full max-w-4xl mx-auto">
-            <h2 className="text-[2rem] font-semibold tracking-tight mb-12 text-center">
+            <h2 className="text-[2rem] font-semibold tracking-normal mb-12 text-center">
               Key Learnings
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -676,12 +662,12 @@ export default function RoomCraftCaseStudy() {
           </div>
         </section>
 
-        <section className="mt-32 pt-24 border-t border-outline-variant/20">
+        <section className="mt-12 pt-24 border-t border-outline-variant/20">
           <div className="flex flex-col items-center text-center space-y-8">
-            <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-secondary">
+            <span className="text-[10px] font-bold uppercase tracking-widest text-secondary">
               The Next Foundation
             </span>
-            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tighter max-w-4xl">
+            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-normal max-w-4xl">
               Ready to ensure visual perfection in your next{" "}
               <span className="text-on-surface-variant/20 italic font-medium">
                 digital product?
@@ -689,7 +675,7 @@ export default function RoomCraftCaseStudy() {
             </h2>
             <div className="mb-12 w-full">
               <a href="mailto:adnanyazidar48@gmail.com">
-                <button className="px-12 py-6 bg-primary text-on-primary-container font-headline font-black uppercase tracking-[0.2em] hover:bg-secondary transition-colors text-lg">
+                <button className="px-12 py-6 bg-primary text-on-primary-container font-headline font-black uppercase tracking-widest hover:bg-secondary transition-colors text-lg">
                   Initiate Collaboration
                 </button>
               </a>

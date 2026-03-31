@@ -5,6 +5,7 @@ import WhyHireMeSection from "@/components/WhyHireMeSection";
 import SelectedWorkSection from "@/components/SelectedWorkSection";
 import TechStackSection from "@/components/TechStackSection";
 import ReviewsSection from "@/components/ReviewsSection";
+import QAApproachSection from "@/components/QAApproachSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
