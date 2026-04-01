@@ -27,7 +27,7 @@ export default function SelectedWorkSection() {
             </span>
           </a>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-12">
           {/* Project 1 */}
           {/* FIXED: Added flex flex-col for equal bottom alignment */}
           <div className="space-y-6 group cursor-pointer flex flex-col">
@@ -42,20 +42,18 @@ export default function SelectedWorkSection() {
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4KI3dMh1NJJPX-cwlWrIHjzkWADCesI3kbtJ8bQByLBKd1yH9s70s8e8-8ZilRqkVsd3ccdIQvXJbBmWkI3njP3lJX8C9OMNOwkJZMR8vfiSGcLN1LH6hybRwTkjTdi9lDmty9vnQCa2tD2Q0h00Nu2gidPtCeFurHa6WPStWv0G4ZKdXV2gztFeBfwEdqOxw2o43ruPqS4nmWGe1DmWWt69EIGX5KkHUlZOikUoHjSFDORRVISz_Cqy9u797As7aIvH0tPl8q3o"
               />
             </a>
-            <div className="space-y-6">
-              <div className="flex flex-col xl:flex-row justify-between xl:items-center gap-4 xl:gap-0">
-                <h4 className="font-headline font-bold text-2xl tracking-tight leading-tight">
+            <div className="space-y-6 flex-grow flex flex-col">
+              <div className="flex flex-col gap-3">
+                <h4 className="font-headline font-bold text-2xl tracking-tight leading-tight w-full xl:w-2/3">
                   Freshtoria Dashboard
                 </h4>
-                <span className="text-[10px] w-fit bg-secondary/10 text-secondary px-3 py-1 font-bold uppercase tracking-widest">
+                <span className="text-[10px] w-fit bg-secondary/10 text-secondary px-3 py-1 font-bold uppercase tracking-widest shrink-0 mt-1">
                   QA Automation Contributor
                 </span>
               </div>
-              {/* FIXED: Removed border-t border-zinc-200 divider line, replaced with pt-8 spacing (DESIGN.md §2.3 No-Line Rule) */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8">
+              <div className="grid grid-cols-1 gap-6 pt-4 flex-grow">
                 <div>
-                  {/* FIXED: Increased label from text-[10px] text-zinc-400 mb-1 → text-[11px] text-zinc-500 mb-2 for better contrast */}
-                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-2">
+                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-1">
                     Challenge
                   </span>
                   {/* FIXED: Increased body from text-xs → text-sm leading-relaxed for readability */}
@@ -67,7 +65,7 @@ export default function SelectedWorkSection() {
                   </p>
                 </div>
                 <div>
-                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-2">
+                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-1">
                     Action
                   </span>
                   <p className="text-sm font-medium leading-relaxed">
@@ -76,7 +74,7 @@ export default function SelectedWorkSection() {
                   </p>
                 </div>
                 <div>
-                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-2">
+                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-1">
                     Result
                   </span>
                   <p className="text-sm font-medium leading-relaxed">
@@ -117,19 +115,18 @@ export default function SelectedWorkSection() {
                 src="../../asset/room.png"
               />
             </a>
-            <div className="space-y-6">
-              <div className="flex flex-col xl:flex-row justify-between xl:items-center gap-4 xl:gap-0">
-                <h4 className="font-headline font-bold text-2xl tracking-tight leading-tight">
+            <div className="space-y-6 flex-grow flex flex-col">
+              <div className="flex flex-col gap-3">
+                <h4 className="font-headline font-bold text-2xl tracking-tight leading-tight w-full xl:w-2/3">
                   RoomCraft
                 </h4>
-                <span className="text-[10px] w-fit bg-secondary/10 text-secondary px-3 py-1 font-bold uppercase tracking-widest">
+                <span className="text-[10px] w-fit bg-secondary/10 text-secondary px-3 py-1 font-bold uppercase tracking-widest shrink-0 mt-1">
                   QA Manual & Front End Developer
                 </span>
               </div>
-              {/* FIXED: Removed border-t border-zinc-200 divider line, replaced with pt-8 spacing */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8">
+              <div className="grid grid-cols-1 gap-6 pt-4 flex-grow">
                 <div>
-                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-2">
+                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-1">
                     Challenge
                   </span>
                   <p className="text-sm font-medium leading-relaxed">
@@ -139,7 +136,7 @@ export default function SelectedWorkSection() {
                   </p>
                 </div>
                 <div>
-                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-2">
+                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-1">
                     Action
                   </span>
                   <p className="text-sm font-medium leading-relaxed">
@@ -150,7 +147,7 @@ export default function SelectedWorkSection() {
                   </p>
                 </div>
                 <div>
-                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-2">
+                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-1">
                     Result
                   </span>
                   <p className="text-sm font-medium leading-relaxed">
@@ -165,6 +162,76 @@ export default function SelectedWorkSection() {
               <div className="pt-2 mt-auto">
                 <a
                   href="/case-studies/roomcraft"
+                  className="font-label text-[0.75rem] tracking-[0.2em] uppercase font-bold text-primary hover:text-secondary transition-colors flex items-center gap-2 group/btn w-fit"
+                >
+                  View Detail
+                  <span
+                    className="material-symbols-outlined !text-[1rem] group-hover/btn:translate-x-1 transition-transform"
+                    data-icon="arrow_forward"
+                  >
+                    arrow_forward
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Project 3 */}
+          <div className="space-y-6 group cursor-pointer flex flex-col">
+            <a
+              href="/case-studies/portfolio-automation"
+              className="bg-surface-container-highest aspect-[16/10] overflow-hidden block"
+            >
+              <img
+                alt="Test Automation Dashboard Code"
+                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                data-alt="Code editor showing Playwright E2E automation setup with test results and colorful syntax highlighting."
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop"
+              />
+            </a>
+            <div className="space-y-6 flex-grow flex flex-col">
+              <div className="flex flex-col gap-3">
+                <h4 className="font-headline font-bold text-2xl tracking-tight leading-tight w-full xl:w-2/3">
+                  Portfolio Playwright E2E Automation
+                </h4>
+                <span className="text-[10px] w-fit bg-secondary/10 text-secondary px-3 py-1 font-bold uppercase tracking-widest shrink-0 mt-1">
+                  QA Automation Engineer
+                </span>
+              </div>
+              <div className="grid grid-cols-1 gap-6 pt-4 flex-grow">
+                <div>
+                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-1">
+                    Challenge
+                  </span>
+                  <p className="text-sm font-medium leading-relaxed">
+                    Personal portfolios require 100% uptime and visual
+                    consistency across varying devices, yet manual checks easily
+                    miss subtle CSS layout breakages.
+                  </p>
+                </div>
+                <div>
+                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-1">
+                    Action
+                  </span>
+                  <p className="text-sm font-medium leading-relaxed">
+                    Architected a robust Playwright automation framework
+                    specifically utilizing the Page Object Model (POM) mapping
+                    core layouts and visual targets.
+                  </p>
+                </div>
+                <div>
+                  <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-1">
+                    Result
+                  </span>
+                  <p className="text-sm font-medium leading-relaxed">
+                    100% coverage on critical anchor navigation, CTA downloads,
+                    responsive states, and layout pixel-perfect visual
+                    validation.
+                  </p>
+                </div>
+              </div>
+              <div className="pt-2 mt-auto">
+                <a
+                  href="/case-studies/portfolio-automation"
                   className="font-label text-[0.75rem] tracking-[0.2em] uppercase font-bold text-primary hover:text-secondary transition-colors flex items-center gap-2 group/btn w-fit"
                 >
                   View Detail
