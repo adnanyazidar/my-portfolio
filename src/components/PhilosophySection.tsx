@@ -84,7 +84,7 @@ export default function PhilosophySection() {
                 </p>
                 <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
                   I build automated tests to improve product quality, reduce
-                  manual effort, and support faster, safer releases while
+                  manual effort, and contribute to safer and more confident releases while
                   continuously deepening my knowledge in test automation, CI/CD,
                   and system reliability.
                 </p>

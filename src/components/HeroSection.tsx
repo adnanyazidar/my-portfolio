@@ -15,7 +15,7 @@ export default function HeroSection() {
           </div>
 
           <h1 className="font-headline font-extrabold text-5xl md:text-7xl text-white leading-[1.1] mb-8 tracking-tight">
-            QA Automation Engineer <br />
+            Junior QA Automation <br />
             <span className="text-white/40 italic font-light">
               building reliable and well-tested systems
             </span>

@@ -28,7 +28,45 @@ export default function TechStackSection() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 lg:gap-12">
+          {/* Manual Testing */}
+          <div className="bg-white p-8 md:p-10 flex flex-col h-full border border-outline-variant/15">
+            <div className="flex items-center gap-3 mb-8">
+              <span className="material-symbols-outlined text-secondary text-2xl">
+                fact_check
+              </span>
+              <h4 className="font-headline font-bold uppercase text-xs tracking-widest text-black">
+                Manual Testing
+              </h4>
+            </div>
+            <div className="space-y-8 flex-grow">
+              <div>
+                <span className="block text-[10px] font-bold text-zinc-400 uppercase tracking-wider mb-6">
+                  Core Skills
+                </span>
+                <div className="flex flex-wrap gap-2">
+                  <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
+                    Manual Testing
+                  </span>
+                  <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
+                    Bug Reporting
+                  </span>
+                  <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
+                    Test Case Design
+                  </span>
+                </div>
+              </div>
+              <div>
+                <span className="block text-[10px] font-bold text-zinc-400 uppercase tracking-wider mb-6">
+                  Focus
+                </span>
+                <p className="text-sm text-zinc-600 leading-relaxed font-medium">
+                  Helping teams catch real user issues before release through exploratory and structured testing
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* QA Automation */}
           {/* FIXED: Changed invisible border border-zinc-100 → Ghost Border pattern border-outline-variant/15
               per DESIGN.md §4.3 — border was same color as bg, providing zero visual differentiation */}
@@ -48,15 +86,15 @@ export default function TechStackSection() {
                 </span>
                 {/* FIXED: Standardized to flex flex-wrap gap-2 (was already correct here) */}
                 <div className="flex flex-wrap gap-2">
-                  {/* FIXED: Removed "(Beginner)" label from chip text — skill level now encoded visually.
-                      Added underline decoration + arrow_outward icon for interactive chip affordance */}
                   <a href="/case-studies/freshtoria#technical-deep-dive" className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200 hover:bg-primary hover:text-white transition-colors cursor-pointer inline-flex items-center gap-1 underline decoration-secondary/30 underline-offset-2">
                     Playwright
                     <span className="material-symbols-outlined !text-[10px]">arrow_outward</span>
                   </a>
-                  {/* FIXED: Removed "(Learning)" label — static chip styling signals "exploring" level */}
                   <span className="text-xs font-medium px-2 py-1 bg-zinc-50 border border-zinc-100 text-zinc-400">
                     Selenium
+                  </span>
+                  <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
+                    JavaScript / TypeScript
                   </span>
                 </div>
               </div>
@@ -65,7 +103,7 @@ export default function TechStackSection() {
                   Focus
                 </span>
                 <p className="text-sm text-zinc-600 leading-relaxed font-medium">
-                  Building automated test scenarios and reducing manual testing
+                  Building automated regression tests and reducing repetitive manual testing
                 </p>
               </div>
             </div>
@@ -102,7 +140,7 @@ export default function TechStackSection() {
                   Focus
                 </span>
                 <p className="text-sm text-zinc-600 leading-relaxed font-medium">
-                  Understanding API behavior and validating responses
+                  Validating API responses and ensuring reliable backend integration
                 </p>
               </div>
             </div>
@@ -127,13 +165,13 @@ export default function TechStackSection() {
                 <div className="flex flex-wrap gap-2">
                   {/* FIXED: Removed empty inner spans and "(Intermediate)" label */}
                   <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
-                    HTML/CSS/JS
+                    JavaScript / TypeScript
                   </span>
                   <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
                     React
                   </span>
                   <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
-                    Tailwind
+                    Tailwind CSS
                   </span>
                 </div>
               </div>
@@ -142,7 +180,7 @@ export default function TechStackSection() {
                   Focus
                 </span>
                 <p className="text-sm text-zinc-600 leading-relaxed font-medium">
-                  Building responsive UI and understanding user experience
+                  Understanding UI behavior to create better end-to-end and visual tests
                 </p>
               </div>
             </div>
@@ -175,7 +213,7 @@ export default function TechStackSection() {
                 </span>
                 {/* FIXED: Completed truncated sentence — was "and simple" (cut off mid-thought) */}
                 <p className="text-sm text-zinc-600 leading-relaxed font-medium">
-                  Learning automated test execution and CI pipeline integration
+                  Integrating automated tests into CI pipelines using GitHub Actions
                 </p>
               </div>
             </div>

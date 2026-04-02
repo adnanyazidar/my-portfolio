@@ -213,9 +213,8 @@ export default function SelectedWorkSection() {
                     Action
                   </span>
                   <p className="text-sm font-medium leading-relaxed">
-                    Architected a robust Playwright automation framework
-                    specifically utilizing the Page Object Model (POM) mapping
-                    core layouts and visual targets.
+                    Built a Playwright automation framework and applied Page
+                    Object Model (POM) to map core layouts and visual targets.
                   </p>
                 </div>
                 <div>
