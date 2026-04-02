@@ -39,7 +39,7 @@ export class HomePage extends BasePage {
     // Section locators — menggunakan id atau konten unik
     this.heroSection = page
       .locator("section")
-      .filter({ hasText: "QA Automation Engineer" })
+      .filter({ hasText: "Junior QA Automation" })
       .first();
     this.philosophySection = page.locator("#philosophy");
     this.techStackSection = page.locator("#expertise");
@@ -51,9 +51,9 @@ export class HomePage extends BasePage {
     // Hero elements
     this.heroTitle = page
       .locator("h1")
-      .filter({ hasText: "QA Automation Engineer" });
+      .filter({ hasText: "Junior QA Automation" });
     this.heroSubtitle = page.locator(
-      "text=building reliable and well-tested systems",
+      "text=Frontend background • Focused on reliable web testing",
     );
     this.viewProjectsBtn = page
       .locator('a[href="/#case-studies"]')
