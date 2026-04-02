@@ -1,55 +1,41 @@
-# 🚀 Portfolio — QA Automation & Front-End Developer
+# 🚀 Portfolio — Junior QA Automation Engineer
 
 Hi, I'm **Adnan Yazid** 👋
-I specialize in building **high-quality digital products** by combining:
+I specialize in building **reliable automated testing systems** by combining:
 
-- 🔍 QA Automation (reliability & testing)
-- 🎨 Front-End Development (UI/UX & performance)
+- 🔍 **QA Automation** (Playwright, Selenium, Page Object Model)
+- 📊 **Manual Testing** (Bug Reporting, Test Case Design, Exploratory Testing)
+- 🎨 **Front-End Foundation** (React, TypeScript, Tailwind CSS)
 
 ---
 
 ## 🌐 Live Demo
 
-🔗 https://your-portfolio-link.com
+🔗 [https://portofolioadnan.vercel.app/](https://portofolioadnan.vercel.app/)
 
 ---
 
 ## 📌 About This Project
 
-This is a **modern portfolio website** built with **Next.js App Router** to showcase:
+This is a **high-performance portfolio website** built with **Next.js App Router** and **TypeScript**. It is designed to demonstrate:
 
-- My QA Automation skills
-- My Front-End development expertise
-- My approach to building scalable systems
-
----
-
-## 🧠 Key Features
-
-- ✅ Automation-ready architecture
-- ⚡ Fast performance (Next.js optimization)
-- 📱 Fully responsive design
-- 🎯 Clean UI/UX
-- 🧩 Scalable folder structure
+- **Industry-Standard Automation**: Implementing E2E tests using Playwright and POM.
+- **QA Methodology**: Clear documentation of Challenge, Action, and Result (CAR) for every project.
+- **Modern UI/UX**: A sleek, dark-themed interface built with Tailwind CSS.
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Front-End
+### 🔍 Quality Assurance
+- **Automation Tools**: Playwright, Selenium, Postman (API Testing)
+- **Methodology**: Manual Testing, Bug Reporting, Test Case Design
+- **CI/CD**: GitHub Actions integration for automated test execution
 
-- Next.js (App Router)
-- Tailwind CSS
-
-### QA Automation
-
-- Playwright
-- End-to-End Testing
-
-### Tools
-
-- Git & GitHub
-- VS Code
+### 💻 Development
+- **Core**: JavaScript / TypeScript
+- **Frameworks**: Next.js (App Router), React
+- **Styling**: Tailwind CSS
 
 ---
 
@@ -57,65 +43,37 @@ This is a **modern portfolio website** built with **Next.js App Router** to show
 
 ```
 PORTOFOLIO_ADNAN/
-├── public/
+├── public/                # Static assets & Resume
 ├── src/
-│   └── app/
+│   ├── app/               # Next.js App Router & Case Study pages
+│   ├── components/        # Reusable UI sections (Hero, TechStack, etc.)
+│   └── styles/            # Global styling
+├── playwright.config.ts   # Automation configuration
 ├── package.json
 └── README.md
 ```
 
 ---
 
-## ⚙️ Getting Started
+## 🧪 Automation Showcase
 
-```bash
-git clone https://github.com/adnanyazidar/my-portfolio.git
-cd my-portfolio
-npm install
-npm run dev
-```
+This project includes its own **End-to-End testing suite**. I use Playwright to ensure:
+- 100% Uptime for critical navigation and CTAs.
+- Visual regression testing for layout consistency.
+- Responsive design validation across mobile/desktop viewports.
 
----
-
-## 🧪 Running Automation Tests
-
+Run the tests locally:
 ```bash
 npx playwright test
 ```
 
 ---
 
-## 📸 Preview
-
-_Add screenshot here:_
-
-```
-![Preview](./public/preview.png)
-```
-
----
-
 ## 👨‍💻 Author
 
-**Adnan Yazid**
-QA Automation Engineer (Junior) | Front-End Developer
+**Adnan Yazid Ardiansyah**
+Junior QA Automation Engineer | Frontend Background
 
----
-
-## 📬 Contact
-
-- Email: [adnanyazidar48@gmail.com](mailto:adnanyazidar48@gmail.com)
-- LinkedIn: https://www.linkedin.com/in/adnan-yazid-ardiansyah-a14800160/
-- GitHub: https://github.com/adnanyazidar
-
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐
-
----
-
-## 📄 License
-
-MIT License
+- **LinkedIn**: [Adnan Yazid Ardiansyah](https://www.linkedin.com/in/adnan-yazid-ardiansyah-a14800160/)
+- **GitHub**: [@adnanyazidar](https://github.com/adnanyazidar)
+- **Email**: [adnanyazidar48@gmail.com](mailto:adnanyazidar48@gmail.com)
