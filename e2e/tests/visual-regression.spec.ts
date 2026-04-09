@@ -27,7 +27,6 @@ test.describe("Visual Regression", () => {
 
       // Screenshot hanya hero section
       await expect(homePage.heroSection).toHaveScreenshot("homepage-hero.png", {
-        maxDiffPixelRatio: 0.01,
         animations: "disabled", // Disable animasi untuk konsistensi
       });
     });
@@ -42,7 +41,6 @@ test.describe("Visual Regression", () => {
       await expect(homePage.selectedWorkSection).toHaveScreenshot(
         "homepage-selected-work.png",
         {
-          maxDiffPixelRatio: 0.01,
           animations: "disabled",
         }
       );
@@ -58,7 +56,6 @@ test.describe("Visual Regression", () => {
       await expect(homePage.contactSection).toHaveScreenshot(
         "homepage-contact.png",
         {
-          maxDiffPixelRatio: 0.01,
           animations: "disabled",
         }
       );
@@ -74,7 +71,6 @@ test.describe("Visual Regression", () => {
       // Screenshot header area
       const headerSection = aboutPage.page.locator("section").first();
       await expect(headerSection).toHaveScreenshot("about-header.png", {
-        maxDiffPixelRatio: 0.01,
         animations: "disabled",
       });
     });
@@ -91,7 +87,6 @@ test.describe("Visual Regression", () => {
         has: aboutPage.mindsetHeading,
       });
       await expect(mindsetSection).toHaveScreenshot("about-mindset.png", {
-        maxDiffPixelRatio: 0.01,
         animations: "disabled",
       });
     });
@@ -106,7 +101,6 @@ test.describe("Visual Regression", () => {
       // Screenshot hero area (first div after back link)
       const heroArea = caseStudyPage.page.locator("main > div").first();
       await expect(heroArea).toHaveScreenshot("freshtoria-hero.png", {
-        maxDiffPixelRatio: 0.01,
         animations: "disabled",
       });
     });
@@ -119,7 +113,6 @@ test.describe("Visual Regression", () => {
       // Screenshot hero area
       const heroArea = caseStudyPage.page.locator("main > div").first();
       await expect(heroArea).toHaveScreenshot("roomcraft-hero.png", {
-        maxDiffPixelRatio: 0.01,
         animations: "disabled",
       });
     });
