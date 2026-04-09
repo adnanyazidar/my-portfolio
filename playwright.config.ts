@@ -19,11 +19,14 @@ export default defineConfig({
   // Expect timeout: 5 detik untuk assertions
   expect: {
     timeout: 5_000,
-    // Visual regression: toleransi 1% pixel difference
+    // Visual regression: toleransi 5% pixel difference untuk lintas platform
     toHaveScreenshot: {
-      maxDiffPixelRatio: 0.01,
+      maxDiffPixelRatio: 0.05,
     },
   },
+
+  // Konfigurasi nama snapshot agar tidak membedakan platform (Windows/Linux)
+  snapshotPathTemplate: "{testDir}/{testFileDir}/{testFileName}-snapshots/{arg}-{projectName}{ext}",
 
   // Jalankan test files secara paralel
   fullyParallel: true,

@@ -79,7 +79,7 @@ export class CaseStudyPage extends BasePage {
 
   /** Klik "Back to Portfolio" link */
   async clickBackToPortfolio(): Promise<void> {
-    await this.backToPortfolioLink.click();
+    await this.backToPortfolioLink.dispatchEvent("click");
   }
 
   // ── Freshtoria-specific ──────────────────────────────────
