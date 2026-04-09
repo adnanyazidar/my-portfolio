@@ -28,7 +28,7 @@ export default function TechStackSection() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 gap-8 lg:gap-12">
           {/* Manual Testing */}
           <div className="bg-white p-8 md:p-10 flex flex-col h-full border border-outline-variant/15">
             <div className="flex items-center gap-3 mb-8">
