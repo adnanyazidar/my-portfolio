@@ -3,7 +3,7 @@
 Hi, I'm **Adnan Yazid** 👋
 I specialize in building **reliable automated testing systems** by combining:
 
-- 🔍 **QA Automation** (Playwright, Selenium, Page Object Model)
+- 🔍 **QA Automation** (Playwright, Page Object Model)
 - 📊 **Manual Testing** (Bug Reporting, Test Case Design, Exploratory Testing)
 - 🎨 **Front-End Foundation** (React, TypeScript, Tailwind CSS)
 
@@ -28,7 +28,7 @@ This is a **high-performance portfolio website** built with **Next.js App Router
 ## 🛠️ Tech Stack
 
 ### 🔍 Quality Assurance
-- **Automation Tools**: Playwright, Selenium, Postman (API Testing)
+- **Automation Tools**: Playwright, Postman (API Testing)
 - **Methodology**: Manual Testing, Bug Reporting, Test Case Design
 - **CI/CD**: GitHub Actions integration for automated test execution
 

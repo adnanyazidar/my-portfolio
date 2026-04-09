@@ -77,7 +77,7 @@ export default function PhilosophySection() {
                 </p>
                 <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
                   I’m now focusing my frontend expertise into building reliable
-                  automation frameworks using Playwright and Cypress.
+                  automation frameworks using Playwright.
                 </p>
               </div>
               <div>
