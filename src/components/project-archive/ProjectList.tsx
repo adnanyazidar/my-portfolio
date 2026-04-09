@@ -11,6 +11,28 @@ const CATEGORIES = [
 
 const projects: Project[] = [
   {
+    roleDesc: "Lead Full-stack Architect & QA Engineer | 2026",
+    category: "QA Automation",
+    title: "PomoPulp",
+    tech: "Next.js 15, Bun, ElysiaJS, TiDB, Playwright",
+    problem:
+      "Most productivity tools suffer from high friction and fragmented experiences, lack immersive atmospheres, and fail to provide deep analytical insights.",
+    myRole: [
+      "Architected a high-performance mono-architecture using ElysiaJS and Bun to achieve <30ms server responses.",
+      "Engineered a 'Guest-to-Member' flow with atomic data migration using Drizzle ORM.",
+      "Built a multi-layer audio mixer and integrated Spotify/YouTube for an immersive workstation experience.",
+      "Developed a comprehensive E2E automation framework using Playwright to audit data integrity and timer logic.",
+    ],
+    result: [
+      "Successfully eliminated network latency between frontend and backend via mono-architecture.",
+      "Achieved 100% pass rate in automated regression suites before production deployment.",
+      "Enabled seamless synchronization of guest progress to cloud accounts with zero data loss.",
+    ],
+    caseStudyHref: "/case-studies/pomopulp",
+    demoHref: "https://pomopulp.vercel.app",
+    sourceHref: "https://github.com/adnanyazidar/PomoPulp",
+  },
+  {
     roleDesc: "QA Automation Contributor | 2026",
     category: "QA Automation",
     title: "Freshtoria Dashboard",

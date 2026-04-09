@@ -28,8 +28,8 @@ export default function SelectedWorkSection() {
           </a>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-12">
-          {/* Project 1 */}
-          {/* FIXED: Added flex flex-col for equal bottom alignment */}
+
+          {/* Project 2: Freshtoria */}
           <div className="space-y-6 group cursor-pointer flex flex-col">
             <a
               href="/case-studies/freshtoria"
@@ -38,7 +38,6 @@ export default function SelectedWorkSection() {
               <img
                 alt="Financial Dashboard UI"
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-                data-alt="Sleek financial interface on a laptop screen with dark mode aesthetic and blue data visualizations in a minimal studio setting."
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4KI3dMh1NJJPX-cwlWrIHjzkWADCesI3kbtJ8bQByLBKd1yH9s70s8e8-8ZilRqkVsd3ccdIQvXJbBmWkI3njP3lJX8C9OMNOwkJZMR8vfiSGcLN1LH6hybRwTkjTdi9lDmty9vnQCa2tD2Q0h00Nu2gidPtCeFurHa6WPStWv0G4ZKdXV2gztFeBfwEdqOxw2o43ruPqS4nmWGe1DmWWt69EIGX5KkHUlZOikUoHjSFDORRVISz_Cqy9u797As7aIvH0tPl8q3o"
               />
             </a>
@@ -56,12 +55,9 @@ export default function SelectedWorkSection() {
                   <span className="block text-[11px] text-zinc-500 uppercase font-bold mb-1">
                     Challenge
                   </span>
-                  {/* FIXED: Increased body from text-xs → text-sm leading-relaxed for readability */}
                   <p className="text-sm font-medium leading-relaxed">
-                    The development team does not yet have automated testing for
-                    the financial accounting and inventory features. Changes to
-                    these features often cause regressions that aren't detected
-                    until after deployment.
+                    The team lacked automated testing for financial and inventory features, 
+                    leading to undetected regressions in critical business logic.
                   </p>
                 </div>
                 <div>
@@ -69,8 +65,8 @@ export default function SelectedWorkSection() {
                     Action
                   </span>
                   <p className="text-sm font-medium leading-relaxed">
-                    I automated the key regression scenarios using Playwright
-                    and integrated them into GitHub Actions.
+                    Automated key regression scenarios using Playwright and integrated 
+                    them into the CI/CD pipeline via GitHub Actions.
                   </p>
                 </div>
                 <div>
@@ -78,13 +74,11 @@ export default function SelectedWorkSection() {
                     Result
                   </span>
                   <p className="text-sm font-medium leading-relaxed">
-                    Testing became more efficient, and the team received
-                    feedback faster before deployment.
+                    Dramatically faster feedback loops and improved deployment confidence 
+                    through consistent, reliable automated validation.
                   </p>
                 </div>
               </div>
-              {/* View Detail Button */}
-              {/* FIXED: Added mt-auto to push CTA to consistent baseline across cards */}
               <div className="pt-2 mt-auto">
                 <a
                   href="/case-studies/freshtoria"
@@ -101,8 +95,8 @@ export default function SelectedWorkSection() {
               </div>
             </div>
           </div>
-          {/* Project 2 */}
-          {/* FIXED: Added flex flex-col for equal bottom alignment */}
+
+          {/* Project 3: RoomCraft */}
           <div className="space-y-6 group cursor-pointer flex flex-col">
             <a
               href="/case-studies/roomcraft"
@@ -111,7 +105,6 @@ export default function SelectedWorkSection() {
               <img
                 alt="Interior Design 3D App"
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-                data-alt="3D interior design interface on a laptop screen with furniture visualization and modern UI design."
                 src="../../asset/room.png"
               />
             </a>
@@ -130,9 +123,8 @@ export default function SelectedWorkSection() {
                     Challenge
                   </span>
                   <p className="text-sm font-medium leading-relaxed">
-                    I want to build an interactive and responsive 3D app for
-                    interior design, while also learning how to implement
-                    testing in modern apps.
+                    The goal was to build an interactive 3D app for interior design while 
+                    learning to implement high-quality testing in modern web apps.
                   </p>
                 </div>
                 <div>
@@ -140,10 +132,8 @@ export default function SelectedWorkSection() {
                     Action
                   </span>
                   <p className="text-sm font-medium leading-relaxed">
-                    In addition to contributing to the development of the user
-                    interface, I created test cases for various scenarios,
-                    conducted exploratory testing, and documented bugs in
-                    detail.
+                    Contributed to the UI development and created comprehensive test cases 
+                    and exploratory testing strategies for 3D interactions.
                   </p>
                 </div>
                 <div>
@@ -151,14 +141,11 @@ export default function SelectedWorkSection() {
                     Result
                   </span>
                   <p className="text-sm font-medium leading-relaxed">
-                    I successfully identified various bugs prior to the project
-                    presentation and improved the stability and quality of the
-                    application's user interface.
+                    Identified critical UI bugs before presentation and improved global 
+                    stability and rendering quality across various devices.
                   </p>
                 </div>
               </div>
-              {/* View Detail Button */}
-              {/* FIXED: Added mt-auto to push CTA to consistent baseline */}
               <div className="pt-2 mt-auto">
                 <a
                   href="/case-studies/roomcraft"
