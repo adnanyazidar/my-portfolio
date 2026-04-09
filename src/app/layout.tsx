@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Adnan Labs — QA Automation Architect & Frontend Expert",
+  title: "Adnan Labs | QA Automation Engineer",
   description:
-    "I build resilient automation ecosystems that reduce regression testing by 80%, ensuring your product reaches users faster and error-free.",
+    "QA Automation Engineer with Frontend DNA. Specializing in building robust automation frameworks using Playwright and Cypress, integrating CI/CD pipelines, and ensuring seamless user experiences.",
 };
 
 export default function RootLayout({

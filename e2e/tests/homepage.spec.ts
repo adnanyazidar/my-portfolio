@@ -31,13 +31,13 @@ test.describe("Homepage Full Load", () => {
     await homePage.expectHeroVisible();
 
     // Verifikasi role/title
-    await expect(homePage.heroTitle).toContainText("Junior QA Automation");
+    await expect(homePage.heroTitle).toContainText("QA Automation Engineer");
 
     // Verifikasi subtitle
     await expect(homePage.heroSubtitle).toBeVisible();
 
     // Verifikasi intro text
-    const introText = homePage.page.locator("text=I build automated tests");
+    const introText = homePage.page.locator("text=I leverage my background in Frontend");
     await expect(introText).toBeVisible();
   });
 

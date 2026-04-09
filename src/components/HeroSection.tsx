@@ -15,30 +15,37 @@ export default function HeroSection() {
           </div>
 
           <h1 className="font-headline font-extrabold text-5xl md:text-7xl text-white leading-[1.1] mb-8 tracking-tight">
-            Junior QA Automation <br />
-            <span className="text-white/40 italic font-light">
-              building reliable and well-tested systems
+            QA Automation Engineer <br />
+            <span className="text-secondary italic font-light">
+              with Frontend DNA
             </span>
           </h1>
 
-          <p className="font-body text-xl text-white/70 max-w-[560px] leading-relaxed mb-6">
-            I write automated tests, improve release confidence, and help teams
-            ship reliable products faster.
+          <p className="font-body text-xl text-white/70 max-w-[600px] leading-relaxed mb-10">
+            I leverage my background in Frontend development to build robust
+            automated tests that catch real issues and ensure seamless user
+            experiences.
           </p>
 
-          <div className="flex flex-wrap gap-6">
-            <a
-              href="/#case-studies"
-              className="bg-white text-black px-10 py-5 font-headline font-bold tracking-widest uppercase text-[12px] hover:bg-secondary hover:text-white transition-all shadow-xl"
-            >
-              VIEW MY PROJECTS
-            </a>
+          <div className="flex flex-wrap items-center gap-8">
             <a
               href="/Adnan Yazid Ardiansyah - Junior Software Quality Assurance.pdf"
               download="Adnan Yazid Ardiansyah - Junior Software Quality Assurance.pdf"
-              className="border border-white/20 text-white px-10 py-5 font-headline font-bold tracking-widest uppercase text-[12px] hover:bg-white/5 transition-all"
+              className="bg-secondary text-white px-10 py-5 font-headline font-bold tracking-widest uppercase text-[12px] hover:bg-secondary/80 transition-all shadow-xl"
             >
               DOWNLOAD RESUME
+            </a>
+            <a
+              href="/#contact"
+              className="border border-white/20 text-white px-10 py-5 font-headline font-bold tracking-widest uppercase text-[12px] hover:bg-white/5 transition-all"
+            >
+              CONTACT ME
+            </a>
+            <a
+              href="/#case-studies"
+              className="font-headline font-bold tracking-widest uppercase text-[12px] text-white/40 hover:text-white transition-all underline underline-offset-8 decoration-secondary/40 hover:decoration-secondary"
+            >
+              VIEW MY PROJECTS
             </a>
           </div>
         </div>

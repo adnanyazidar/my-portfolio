@@ -34,7 +34,7 @@ test.describe("Contact & CTA Flow", () => {
       await homePage.goto();
       await homePage.contactSection.scrollIntoViewIfNeeded();
 
-      const description = homePage.page.locator("text=I am open to opportunities");
+      const description = homePage.page.locator("text=Let's discuss how I can help");
       await expect(description).toBeVisible();
     });
   });

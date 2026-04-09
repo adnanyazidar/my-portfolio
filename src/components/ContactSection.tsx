@@ -9,13 +9,11 @@ export default function ContactSection() {
           {/* <span className="font-label text-[0.6875rem] tracking-[0.3em] uppercase text-secondary font-bold mb-8 inline-block">
             06 / Inquiry
           </span> */}
-          <h2 className="font-headline text-[clamp(2.5rem,7vw,5.5rem)] font-extrabold leading-tight text-primary uppercase tracking-tight mb-12">
-            Let’s Build Quality Together
+          <h2 className="font-headline text-[clamp(2.5rem,7vw,4.5rem)] font-extrabold leading-tight text-primary uppercase tracking-tight mb-12">
+            Ready to make your product more reliable?
           </h2>
-          <p className="font-body text-xl md:text-2xl text-on-surface-variant leading-relaxed font-medium mb-12 max-w-[560px] mx-auto">
-            I am open to opportunities as a QA Automation Engineer or
-            collaborative projects where I can continue learning and contribute
-            to building reliable software.
+          <p className="font-body text-xl md:text-2xl text-on-surface-variant leading-relaxed font-medium mb-12 max-w-[600px] mx-auto">
+            Let&apos;s discuss how I can help your team automate quality.
           </p>
           <div className="mb-12 w-full">
             <a
