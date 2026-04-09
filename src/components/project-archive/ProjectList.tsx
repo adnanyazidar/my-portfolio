@@ -30,7 +30,27 @@ const projects: Project[] = [
     ],
     caseStudyHref: "/case-studies/pomopulp",
     demoHref: "https://pomopulp.vercel.app",
-    sourceHref: "https://github.com/adnanyazidar/PomoPulp",
+    sourceHref: "https://github.com/adnanyazidar/Pulp",
+  },
+  {
+    roleDesc: "QA Automation Engineer | 2026",
+    category: "QA Automation",
+    title: "Portfolio Playwright E2E Automation",
+    tech: "Playwright, TypeScript, POM, GitHub Actions",
+    problem:
+      "Personal portfolios require 100% uptime and visual consistency across varying devices, yet manual checks easily miss subtle CSS layout breakages across breakpoints.",
+    myRole: [
+      "Architected a robust Playwright automation framework specifically utilizing the Page Object Model (POM).",
+      "Mapped core layouts and visual targets for strict responsive visual regression testing.",
+      "Integrated testing workflows directly into the deployment pipeline.",
+    ],
+    result: [
+      "Secured 100% logic coverage on critical anchor navigation and CTA downloads.",
+      "Ensured pixel-perfect visual validation across Mobile, Tablet, and Desktop breakpoints.",
+    ],
+    caseStudyHref: "/case-studies/portfolio-automation",
+    demoHref: "#",
+    sourceHref: "https://github.com/adnanyazidar/my-portfolio",
   },
   {
     roleDesc: "QA Automation Contributor | 2026",
@@ -91,26 +111,7 @@ const projects: Project[] = [
     ],
     demoHref: "https://arjuna.cimbniaga.co.id/auth/sign-in",
   },
-  {
-    roleDesc: "QA Automation Engineer | 2026",
-    category: "QA Automation",
-    title: "Portfolio Playwright E2E Automation",
-    tech: "Playwright, TypeScript, POM, GitHub Actions",
-    problem:
-      "Personal portfolios require 100% uptime and visual consistency across varying devices, yet manual checks easily miss subtle CSS layout breakages across breakpoints.",
-    myRole: [
-      "Architected a robust Playwright automation framework specifically utilizing the Page Object Model (POM).",
-      "Mapped core layouts and visual targets for strict responsive visual regression testing.",
-      "Integrated testing workflows directly into the deployment pipeline.",
-    ],
-    result: [
-      "Secured 100% logic coverage on critical anchor navigation and CTA downloads.",
-      "Ensured pixel-perfect visual validation across Mobile, Tablet, and Desktop breakpoints.",
-    ],
-    caseStudyHref: "/case-studies/portfolio-automation",
-    demoHref: "#",
-    sourceHref: "https://github.com/adnanyazidar/my-portfolio",
-  },
+
   // {
   //   roleDesc: "UI/UX Design Contributor | 2022",
   //   category: "UI/UX",
