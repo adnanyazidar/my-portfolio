@@ -6,9 +6,9 @@ import ProjectList from "@/components/project-archive/ProjectList";
 import ProjectArchiveCTA from "@/components/project-archive/ProjectArchiveCTA";
 
 export const metadata: Metadata = {
-  title: "Project Archive — Adnan Labs",
+  title: "Project Archive | Adnan Labs",
   description:
-    "A high-density record of technical solutions, architectural decisions, and quantifiable impacts across the digital landscape.",
+    "A comprehensive record of technical solutions, architectural decisions, and quantifiable impacts in QA automation and software quality.",
 };
 
 export default function ProjectArchivePage() {

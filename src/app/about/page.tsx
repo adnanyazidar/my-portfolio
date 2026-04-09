@@ -3,9 +3,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "QA Approach — Adnan Labs",
+  title: "QA Approach | Adnan Labs",
   description:
-    "How I think about testing, automation, collaboration, and building reliable software.",
+    "My philosophy on testing, automation principles, and how I enable teams to ship high-quality software with confidence.",
 };
 
 export default function QAApproachPage() {

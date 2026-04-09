@@ -13,7 +13,7 @@ test.describe("Homepage Full Load", () => {
 
   test("should display the page with correct title", async ({ homePage }) => {
     const title = await homePage.getTitle();
-    expect(title).toContain("Adnan Labs");
+    expect(title).toBe("Adnan Labs | QA Automation Engineer");
   });
 
   test("should render the navbar with logo and navigation links", async ({ homePage }) => {

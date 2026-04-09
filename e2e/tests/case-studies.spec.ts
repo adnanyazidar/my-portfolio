@@ -69,7 +69,7 @@ test.describe("Case Study Pages", () => {
     });
 
     test("should display test coverage table", async ({ caseStudyPage }) => {
-      const table = caseStudyPage.page.locator("table");
+      const table = caseStudyPage.page.locator("table").first();
       await table.scrollIntoViewIfNeeded();
       await expect(table).toBeVisible();
 

@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Adnan Labs | QA Automation Engineer",
   description:
-    "QA Automation Engineer with Frontend DNA. Specializing in building robust automation frameworks using Playwright, integrating CI/CD pipelines, and ensuring seamless user experiences.",
+    "QA Automation Engineer specializing in robust Playwright frameworks, CI/CD integration, and visual regression testing for high-performance applications.",
 };
 
 export default function RootLayout({
