@@ -56,7 +56,7 @@ export class AboutPage extends BasePage {
     this.bugReportingHeading = page.locator("h2").filter({ hasText: "My Bug Reporting Principles" });
 
     // Continuous Learning
-    this.continuousLearningHeading = page.locator("h2").filter({ hasText: "Continuous Learning" });
+    this.continuousLearningHeading = page.locator("h2").filter({ hasText: "Expanding My Toolkit" });
 
     // CTA
     this.ctaHeading = page.locator("h2").filter({ hasText: "Interested in working together" });

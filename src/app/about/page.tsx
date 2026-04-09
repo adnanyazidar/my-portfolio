@@ -3,9 +3,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "QA Approach — Adnan Labs",
+  title: "QA Approach | Adnan Labs",
   description:
-    "How I think about testing, automation, collaboration, and building reliable software.",
+    "My philosophy on testing, automation principles, and how I enable teams to ship high-quality software with confidence.",
 };
 
 export default function QAApproachPage() {
@@ -355,28 +355,29 @@ export default function QAApproachPage() {
             school
           </span>
           <h2 className="text-3xl font-bold tracking-wide mb-6">
-            Continuous Learning
+            Expanding My Toolkit
           </h2>
           <p className="text-lg text-primary font-medium mb-8">
-            As an early-career QA, continuous learning is part of my daily work.
+            I’m continuously deep-diving into advanced testing methodologies to
+            further streamline the release process.
           </p>
           <p className="text-on-surface-variant mb-6">
-            I am currently improving my skills in:
+            I am currently focusing on:
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <span className="px-5 py-2 bg-white border border-outline-variant/20 rounded-full text-sm font-medium shadow-sm">
-              Test automation and CI/CD workflows
+              Advanced API Testing & Security
             </span>
             <span className="px-5 py-2 bg-white border border-outline-variant/20 rounded-full text-sm font-medium shadow-sm">
-              Writing stable and maintainable tests
+              CI/CD Pipeline Integration
             </span>
             <span className="px-5 py-2 bg-white border border-outline-variant/20 rounded-full text-sm font-medium shadow-sm">
-              System design and test strategy
+              Cloud-Based Testing Infrastructure
             </span>
           </div>
           <p className="text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
-            My goal is to continuously grow into a QA engineer who contributes
-            to both product quality and team efficiency.
+            My goal is to contribute to both product quality and team efficiency
+            by building better and more reliable automated systems.
           </p>
         </section>
 

@@ -43,7 +43,7 @@ export default function Navbar() {
             href="/#contact"
             className="bg-primary text-on-primary-container px-6 md:px-8 py-3 font-headline font-bold tracking-[0.04em] uppercase text-[0.875rem] transition-transform active:scale-95 hidden sm:inline-block"
           >
-            Contact
+            Contact Me
           </a>
 
           {/* Hamburger */}
@@ -83,7 +83,7 @@ export default function Navbar() {
             onClick={() => setMobileOpen(false)}
             className="block bg-primary text-on-primary-container px-6 py-3 font-headline font-bold tracking-[0.04em] uppercase text-sm text-center mt-4"
           >
-            Contact
+            Contact Me
           </a>
         </div>
       )}

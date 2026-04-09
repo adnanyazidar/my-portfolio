@@ -18,7 +18,7 @@ const projects: Project[] = [
     problem:
       "The development team does not yet have automated testing for the financial accounting and inventory features. Changes to these features often cause regressions that aren’t detected until after deployment.",
     myRole: [
-      "Build an end-to-end test suite using Cypress for critical workflows: login, add inventory, edit financial data, and delete data.",
+      "Build an end-to-end test suite using Playwright for critical workflows: login, add inventory, edit financial data, and delete data.",
       "Write test scenarios that include input validation and verification of results.",
       "Integrate the tests into GitHub Actions so they run automatically whenever a pull request is created.",
     ],

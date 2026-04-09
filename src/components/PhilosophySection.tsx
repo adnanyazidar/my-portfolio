@@ -71,22 +71,13 @@ export default function PhilosophySection() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div>
                 <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
-                  I am a QA Automation Engineer with a background in Frontend
-                  development, which helps me understand both how systems are
-                  built and how users experience them.
+                  I test like a user, but think like a developer. With 1+ year of
+                  experience building interfaces at CIMB Niaga, I don&apos;t just
+                  find bugs &mdash; I understand why they happen.
                 </p>
                 <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
-                  I began my career as a Frontend developer, where I developed a
-                  strong understanding of UI behavior, edge cases, and real user
-                  interactions. This experience naturally led me to transition
-                  into QA, where I focus on improving reliability, usability,
-                  and product quality through testing and automation.
-                </p>
-                <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
-                  I build automated tests to improve product quality, reduce
-                  manual effort, and contribute to safer and more confident releases while
-                  continuously deepening my knowledge in test automation, CI/CD,
-                  and system reliability.
+                  I’m now focusing my frontend expertise into building reliable
+                  automation frameworks using Playwright.
                 </p>
               </div>
               <div>
@@ -96,8 +87,12 @@ export default function PhilosophySection() {
                   reliable systems.
                 </p>
                 <p className="font-body text-zinc-600 leading-relaxed max-w-[560px] mb-6">
-                  Currently learning: API testing, CI/CD fundamentals, and test
-                  automation best practices.
+                  <span className="font-bold text-black uppercase text-xs tracking-widest block mb-2">
+                    Expanding My Toolkit:
+                  </span>
+                  I’m currently deep-diving into Advanced API Testing and CI/CD
+                  Pipeline Integration to further streamline the release
+                  process.
                 </p>
               </div>
             </div>

@@ -58,7 +58,7 @@ test.describe("Responsive Design", () => {
       await homePage.selectedWorkSection.scrollIntoViewIfNeeded();
 
       // Pada mobile, project cards harus stack (1 column)
-      const grid = homePage.page.locator("#case-studies .grid.grid-cols-1");
+      const grid = homePage.page.locator("#case-studies > div > .grid.grid-cols-1");
       await expect(grid).toBeAttached();
     });
 

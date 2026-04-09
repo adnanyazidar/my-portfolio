@@ -90,9 +90,7 @@ export default function TechStackSection() {
                     Playwright
                     <span className="material-symbols-outlined !text-[10px]">arrow_outward</span>
                   </a>
-                  <span className="text-xs font-medium px-2 py-1 bg-zinc-50 border border-zinc-100 text-zinc-400">
-                    Selenium
-                  </span>
+
                   <span className="text-xs font-medium px-2 py-1 bg-zinc-100 border border-zinc-200">
                     JavaScript / TypeScript
                   </span>
